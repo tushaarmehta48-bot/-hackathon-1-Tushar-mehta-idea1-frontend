@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "siteDescription": "Réservations dans une cidrerie basque — cuisine de saison, txotx et longues tables.",
+    "bookTitle": "Réserver une table",
+    "bookDescription": "Réservation en ligne pour Haritz Sagardotegia."
+  },
+  "nav": {
+    "menu": "Carte",
+    "experiences": "Expériences",
+    "visit": "Visite",
+    "book": "Réserver une table",
+    "skipToContent": "Aller au contenu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "primary": "Principal",
+    "mobile": "Mobile",
+    "language": "Langue"
+  },
+  "localeNames": {
+    "en": "English",
+    "es": "Español",
+    "eu": "Euskara",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "hero": {
+    "eyebrow": "Gipuzkoa · Sagardotegia",
+    "title": "Feu, cidre et le rythme des saisons",
+    "lead": "Cidrerie basque · cuisine de saison · longues tables. Réservez votre place à la table commune — services txotx, cidre du fût et cuisine au fil du calendrier.",
+    "book": "Réserver une table",
+    "viewMenu": "Voir la carte"
+  },
+  "menuSection": {
+    "eyebrow": "Carte",
+    "title": "Une cuisine liée au verger et au grill",
+    "description": "Les plats et tarifs finaux seront gérés depuis l'administration. Ces cartes illustrent l'esprit de la carte maison.",
+    "availabilityNote": "Disponibilité affichée à la réservation",
+    "cards": {
+      "txotx": {
+        "title": "Txotx de midi",
+        "body": "Omelette de morue, entrecôte, fromage et noix — cidre servi depuis la kupela entre les plats.",
+        "alt": "Assiette de saison sur table rustique"
+      },
+      "grill": {
+        "title": "Grill du soir",
+        "body": "Txuleta au feu de bois, poivrons du jardin et accompagnements partagés. Service au rythme de la cidrerie.",
+        "alt": "Salle chaleureuse avec tables dressées"
+      },
+      "cellar": {
+        "title": "Dimanche à la cave",
+        "body": "Carte plus légère avec fromage local, accords txakoli et pâtisseries du même four à pierre.",
+        "alt": "Convives autour d'une table"
+      }
+    }
+  },
+  "season": {
+    "eyebrow": "Temps fort de saison",
+    "title": "Saison du txotx",
+    "body": "De janvier à avril, le cidre coule directement du fût. Réservez un txotx de midi et prolongez avec le menu au grill.",
+    "cta": "Planifier votre visite"
+  },
+  "experiencesSection": {
+    "eyebrow": "Expériences",
+    "title": "Plus qu'un créneau de réservation",
+    "description": "Les services spéciaux seront liés aux saisons et à la capacité dans les phases suivantes. Les icônes indiquent les types d'expérience.",
+    "imageAlt": "Longue table de convives",
+    "items": {
+      "txotx": {
+        "title": "Txotx au fût",
+        "body": "Visites guidées de la cave avec service contrôlé pendant la saison du cidre."
+      },
+      "evenings": {
+        "title": "Soirées basques",
+        "body": "Trikitixa et repas communautaires ponctuels — dates confirmées avec les saisons."
+      },
+      "orchard": {
+        "title": "Promenades au verger",
+        "body": "Courtes balades guidées entre pommiers avant certains services du dimanche (selon météo)."
+      }
+    }
+  },
+  "visitSection": {
+    "eyebrow": "Visite",
+    "title": "Nous sommes au quartier Haritz",
+    "description": "Les horaires suivront les saisons configurées en administration. Les heures ci-dessous sont indicatives.",
+    "address": "Adresse",
+    "openMaps": "Ouvrir dans Maps",
+    "telephone": "Téléphone",
+    "phoneNote": "pour les changements le jour même et les demandes sans réservation.",
+    "openingTimes": "Horaires",
+    "mapPlaceholder": "Une carte interactive pourra remplacer ce bloc une fois l'emplacement confirmé.",
+    "mapAria": "Emplacement réservé pour la carte",
+    "hours": {
+      "weekend": {
+        "label": "Vendredi et samedi",
+        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      },
+      "sunday": {
+        "label": "Dimanche",
+        "detail": "13:00 – 17:00 (cuisine ferme à 16:00)"
+      },
+      "weekdays": {
+        "label": "Lun. – jeu.",
+        "detail": "Événements privés sur demande"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Cidrerie basque · cuisine de saison · longues tables",
+    "contact": "Contact",
+    "visit": "Visite",
+    "photoCredit": "Photos provisoires Unsplash — voir"
+  },
+  "bookPage": {
+    "eyebrow": "Réservations",
+    "title": "La réservation en ligne arrive bientôt",
+    "body": "Le parcours complet date, table et plan sera ajouté plus tard. Aucune disponibilité n'est affichée pour l'instant.",
+    "backHome": "Retour à l'accueil"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "register": "Créer un compte"
+  },
+  "booking": {
+    "title": "Réserver une table",
+    "myBookings": "Mes réservations"
+  },
+  "staff": {
+    "dashboard": "Espace personnel"
+  },
+  "admin": {
+    "dashboard": "Administration"
+  },
+  "common": {
+    "siteName": "Haritz Sagardotegia"
+  }
+}

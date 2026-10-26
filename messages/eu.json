@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "siteDescription": "Sagardoetxe baskoiarrerako erreserbak — denboraldiko sukaldea, txotx eta mahai luzeak.",
+    "bookTitle": "Mahaia erreserbatu",
+    "bookDescription": "Haritz Sagardotegiaren erreserba online."
+  },
+  "nav": {
+    "menu": "Menua",
+    "experiences": "Esperientziak",
+    "visit": "Bisita",
+    "book": "Mahaia erreserbatu",
+    "skipToContent": "Edukira joan",
+    "openMenu": "Menua ireki",
+    "closeMenu": "Menua itxi",
+    "primary": "Nagusia",
+    "mobile": "Mugikorra",
+    "language": "Hizkuntza"
+  },
+  "localeNames": {
+    "en": "English",
+    "es": "Español",
+    "eu": "Euskara",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "hero": {
+    "eyebrow": "Gipuzkoa · Sagardotegia",
+    "title": "Sua, sagardoa eta denboraldiko erritmoa",
+    "lead": "Sagardoetxe baskoiarra · denboraldiko sukaldea · mahai luzeak. Erreserbatu zure tokia mahai luzean — txotx zerbitzuak, upeltxotik sagardoa eta egutegia jarraitzen duen sukaldea.",
+    "book": "Mahaia erreserbatu",
+    "viewMenu": "Menua ikusi"
+  },
+  "menuSection": {
+    "eyebrow": "Menua",
+    "title": "Sagardotegi eta sukaldearekin lotutako sukaldea",
+    "description": "Plater eta prezioak administrazio panelatik kudeatuko dira. Txartel hauek etxe menuaren tonua aurreikusten dute.",
+    "availabilityNote": "Erabilgarritasuna erreserbatzean",
+    "cards": {
+      "txotx": {
+        "title": "Gertuko txotxa",
+        "body": "Bakailao tortila, txuleta, gazta eta intxaurrak — sagardoa kupelatik plateren artean.",
+        "alt": "Denboraldiko platera mahai rustiko batean"
+      },
+      "grill": {
+        "title": "Arratsaldeko parrilla",
+        "body": "Su txuleta, baratze piperrak eta aldeko plater partekatuak. Sagardoetxearen erritmo lasaian.",
+        "alt": "Berogailu handiko jangela"
+      },
+      "cellar": {
+        "title": "Igande bodegan",
+        "body": "Menu arinagoa gazta lokalarekin, txakoli parekatuak eta harri-labeko opilarekin.",
+        "alt": "Gonbidatuak mahai baten inguruan"
+      }
+    }
+  },
+  "season": {
+    "eyebrow": "Denboraldiko nabarmena",
+    "title": "Txotx denboraldia",
+    "body": "Urtarrilatik apirilera, sagardoa upeltxotik zuzenean. Erreserbatu gertuko txotx zerbitzua eta egon parrilla menuarekin.",
+    "cta": "Antolatu zure bisita"
+  },
+  "experiencesSection": {
+    "eyebrow": "Esperientziak",
+    "title": "Erreserba-tarte bat baino gehiago",
+    "description": "Zerbitzu bereziak denboraldi eta edukierarekin lotuko dira hurrengo faseetan. Ikonoek esperientzia motak markatzen ditete.",
+    "imageAlt": "Mahai luzea oturleekin",
+    "items": {
+      "txotx": {
+        "title": "Upel ondoan txotxa",
+        "body": "Bisita gidatuak upeldegian, sagardo denboraldian ordutegi kontrolatuekin."
+      },
+      "evenings": {
+        "title": "Gau baskoiarrak",
+        "body": "Trikitixa kontzertuak eta afari komunitarioak — datak denboraldiak baieztatzean."
+      },
+      "orchard": {
+        "title": "Sagardotegi ibilaldiak",
+        "body": "Sagarondoen artean ibilaldi laburrak igande zerbitzu batzuetan (eguraldiaren arabera)."
+      }
+    }
+  },
+  "visitSection": {
+    "eyebrow": "Bisita",
+    "title": "Haritz auzoan gaude",
+    "description": "Ordutegiak administrazioko denboraldien arabera egongo dira. Beheko orduak orientagarriak dira.",
+    "address": "Helbidea",
+    "openMaps": "Mapan ireki",
+    "telephone": "Telefonoa",
+    "phoneNote": "egun bereko aldaketetarako eta etorri gabe kontsultetarako.",
+    "openingTimes": "Ordutegia",
+    "mapPlaceholder": "Mapa interaktiboa txertatu daiteke koordenatuak baieztatzean.",
+    "mapAria": "Mapa leku-marka",
+    "hours": {
+      "weekend": {
+        "label": "Ostirala eta larunbata",
+        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      },
+      "sunday": {
+        "label": "Igandea",
+        "detail": "13:00 – 17:00 (sukaldea 16:00tan itxi)"
+      },
+      "weekdays": {
+        "label": "Al. – og.",
+        "detail": "Ekitaldi pribatuak hitzarmenez"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Sagardoetxe baskoiarra · denboraldiko sukaldea · mahai luzeak",
+    "contact": "Kontaktua",
+    "visit": "Bisita",
+    "photoCredit": "Unsplash argazki provisionalak — ikusi"
+  },
+  "bookPage": {
+    "eyebrow": "Erreserbak",
+    "title": "Erreserba online laster",
+    "body": "Data, mahaia eta solairu-planoaren fluxu osoa hurrengo fasean etorriko da. Oraindik ez dago erabilgarritasunik.",
+    "backHome": "Hasierara itzuli"
+  },
+  "auth": {
+    "login": "Saioa hasi",
+    "register": "Kontua sortu"
+  },
+  "booking": {
+    "title": "Mahaia erreserbatu",
+    "myBookings": "Nire erreserbak"
+  },
+  "staff": {
+    "dashboard": "Langileen panela"
+  },
+  "admin": {
+    "dashboard": "Administrazio panela"
+  },
+  "common": {
+    "siteName": "Haritz Sagardotegia"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "siteDescription": "Reserves a sagardotegi basc — cuina de temporada, txotx i taules llargues.",
+    "bookTitle": "Reservar taula",
+    "bookDescription": "Reserva en línia a Haritz Sagardotegia."
+  },
+  "nav": {
+    "menu": "Carta",
+    "experiences": "Experiències",
+    "visit": "Visita",
+    "book": "Reservar taula",
+    "skipToContent": "Saltar al contingut",
+    "openMenu": "Obrir menú",
+    "closeMenu": "Tancar menú",
+    "primary": "Principal",
+    "mobile": "Mòbil",
+    "language": "Idioma"
+  },
+  "localeNames": {
+    "en": "English",
+    "es": "Español",
+    "eu": "Euskara",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "hero": {
+    "eyebrow": "Gipuzkoa · Sagardotegia",
+    "title": "Foc, sidra i el ritme de la temporada",
+    "lead": "Sagardotegi basc · cuina de temporada · taules llargues. Reserveu el vostre lloc a la taula comuna: serveis de txotx, sidra del barril i cuina que segueix el calendari.",
+    "book": "Reservar taula",
+    "viewMenu": "Veure la carta"
+  },
+  "menuSection": {
+    "eyebrow": "Carta",
+    "title": "Cuina lligada al hort i a la graella",
+    "description": "Els plats i preus finals es gestionaran des del panell d'administració. Aquestes targetes prefiguren el to de la carta de la casa.",
+    "availabilityNote": "Disponibilitat en reservar",
+    "cards": {
+      "txotx": {
+        "title": "Txotx de migdia",
+        "body": "Truita de bacallà, txuleta, formatge i nous — sidra servida des de la kupela entre plats.",
+        "alt": "Plat de temporada en taula rústica"
+      },
+      "grill": {
+        "title": "Graella vespertina",
+        "body": "Txuleta a la llenya, pebrot de l'hort i guarnicions compartides. Servei al ritme del sagardotegi.",
+        "alt": "Menjador càlid amb taules parades"
+      },
+      "cellar": {
+        "title": "Diumenge a la celler",
+        "body": "Carta més lleugera amb formatge local, maridatges de txakoli i pastissos del mateix forn de pedra.",
+        "alt": "Comensals al voltant d'una taula"
+      }
+    }
+  },
+  "season": {
+    "eyebrow": "Destacat de temporada",
+    "title": "Temporada de txotx",
+    "body": "De gener a abril, la sidra surt directament del barril. Reserveu un txotx de migdia i quedeu-vos amb el menú a la graella.",
+    "cta": "Planifiqueu la visita"
+  },
+  "experiencesSection": {
+    "eyebrow": "Experiències",
+    "title": "Més que una franja de reserva",
+    "description": "Els serveis especials s'enllaçaran amb temporades i aforament en fases posteriors. Les icones marquen tipus d'experiència per filtrar en reservar.",
+    "imageAlt": "Taula llarga amb comensals compartint",
+    "items": {
+      "txotx": {
+        "title": "Txotx al costat del barril",
+        "body": "Visites guiades a la celler amb serveis controlats durant la temporada de sidra."
+      },
+      "evenings": {
+        "title": "Nits basques",
+        "body": "Actuacions ocasionals de trikitixa i sopars comunitaris — dates en confirmar temporades."
+      },
+      "orchard": {
+        "title": "Passejades pel pomar",
+        "body": "Curtes rutes guiades entre pomeres abans d'alguns serveis dominicals (segons el temps)."
+      }
+    }
+  },
+  "visitSection": {
+    "eyebrow": "Visita",
+    "title": "Som al barri Haritz",
+    "description": "L'horari seguirà les temporades configurades a administració. Els horaris següents són orientatius.",
+    "address": "Adreça",
+    "openMaps": "Obrir al mapa",
+    "telephone": "Telèfon",
+    "phoneNote": "per a canvis el mateix dia i consultes sense reserva.",
+    "openingTimes": "Horari",
+    "mapPlaceholder": "Aquí s'hi pot integrar un mapa interactiu quan es confirmi la ubicació.",
+    "mapAria": "Marcador de posició del mapa",
+    "hours": {
+      "weekend": {
+        "label": "Divendres i dissabte",
+        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      },
+      "sunday": {
+        "label": "Diumenge",
+        "detail": "13:00 – 17:00 (cuina tanca 16:00)"
+      },
+      "weekdays": {
+        "label": "Dl. – dj.",
+        "detail": "Esdeveniments privats sota consulta"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Sagardotegi basc · cuina de temporada · taules llargues",
+    "contact": "Contacte",
+    "visit": "Visita",
+    "photoCredit": "Fotografia provisional d'Unsplash — vegeu"
+  },
+  "bookPage": {
+    "eyebrow": "Reserves",
+    "title": "La reserva en línia aviat",
+    "body": "El flux complet de data, taula i plànol arribarà en una fase posterior. Encara no hi ha disponibilitat.",
+    "backHome": "Tornar a l'inici"
+  },
+  "auth": {
+    "login": "Iniciar sessió",
+    "register": "Crear compte"
+  },
+  "booking": {
+    "title": "Reservar taula",
+    "myBookings": "Les meves reserves"
+  },
+  "staff": {
+    "dashboard": "Panell de personal"
+  },
+  "admin": {
+    "dashboard": "Panell d'administració"
+  },
+  "common": {
+    "siteName": "Haritz Sagardotegia"
+  }
+}

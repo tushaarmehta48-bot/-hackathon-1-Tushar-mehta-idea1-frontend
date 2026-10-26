@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "siteDescription": "Reservas en sagardotegi vasco — cocina de temporada, txotx y mesas compartidas.",
+    "bookTitle": "Reservar mesa",
+    "bookDescription": "Reserva online en Haritz Sagardotegia."
+  },
+  "nav": {
+    "menu": "Carta",
+    "experiences": "Experiencias",
+    "visit": "Visita",
+    "book": "Reservar mesa",
+    "skipToContent": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "primary": "Principal",
+    "mobile": "Móvil",
+    "language": "Idioma"
+  },
+  "localeNames": {
+    "en": "English",
+    "es": "Español",
+    "eu": "Euskara",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "hero": {
+    "eyebrow": "Gipuzkoa · Sagardotegia",
+    "title": "Fuego, sidra y el ritmo de la temporada",
+    "lead": "Sagardotegi vasco · cocina de temporada · mesas largas. Reserve su sitio en la mesa común: servicios de txotx, sidra del barril y una cocina que sigue el calendario.",
+    "book": "Reservar mesa",
+    "viewMenu": "Ver la carta"
+  },
+  "menuSection": {
+    "eyebrow": "Carta",
+    "title": "Cocina ligada al huerto y a la parrilla",
+    "description": "Los platos y precios finales se gestionarán desde el panel de administración. Estas tarjetas anticipan el tono de la carta de la casa.",
+    "availabilityNote": "Disponibilidad al reservar",
+    "cards": {
+      "txotx": {
+        "title": "Txotx del mediodía",
+        "body": "Tortilla de bacalao, chuleta, queso y nueces — sidra servida desde la kupela entre platos.",
+        "alt": "Plato de temporada en mesa rústica"
+      },
+      "grill": {
+        "title": "Parrilla nocturna",
+        "body": "Txuleta a la leña, pimientos del huerto y guarniciones compartidas. Servicio al ritmo del sagardotegi.",
+        "alt": "Comedor cálido con mesas puestas"
+      },
+      "cellar": {
+        "title": "Domingo en bodega",
+        "body": "Carta más ligera con queso local, maridajes de txakoli y repostería del mismo horno de piedra.",
+        "alt": "Comensales alrededor de una mesa"
+      }
+    }
+  },
+  "season": {
+    "eyebrow": "Destacado de temporada",
+    "title": "Temporada de txotx",
+    "body": "De enero a abril, la sidra sale directamente del barril. Reserve un txotx de mediodía y quédese con el menú a la parrilla.",
+    "cta": "Planifique su visita"
+  },
+  "experiencesSection": {
+    "eyebrow": "Experiencias",
+    "title": "Más que una franja de reserva",
+    "description": "Los servicios especiales se vincularán a temporadas y aforo en fases posteriores. Los iconos marcan tipos de experiencia para filtrar al reservar.",
+    "imageAlt": "Mesa larga con comensales compartiendo",
+    "items": {
+      "txotx": {
+        "title": "Txotx junto al barril",
+        "body": "Visitas guiadas a la bodega con servicios controlados y horarios durante la temporada de sidra."
+      },
+      "evenings": {
+        "title": "Noches vascas",
+        "body": "Actuaciones ocasionales de trikitixa y cenas comunitarias — fechas al confirmar temporadas."
+      },
+      "orchard": {
+        "title": "Paseos por el huerto",
+        "body": "Breves rutas guiadas entre manzanos antes de algunos servicios dominicales (según meteorología)."
+      }
+    }
+  },
+  "visitSection": {
+    "eyebrow": "Visita",
+    "title": "Estamos en el barrio Haritz",
+    "description": "El horario seguirá las temporadas configuradas en administración. Los horarios siguientes son orientativos.",
+    "address": "Dirección",
+    "openMaps": "Abrir en mapas",
+    "telephone": "Teléfono",
+    "phoneNote": "para cambios el mismo día y consultas sin reserva.",
+    "openingTimes": "Horario",
+    "mapPlaceholder": "Aquí puede integrarse un mapa interactivo cuando se confirmen las coordenadas del local.",
+    "mapAria": "Marcador de posición del mapa",
+    "hours": {
+      "weekend": {
+        "label": "Viernes y sábado",
+        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      },
+      "sunday": {
+        "label": "Domingo",
+        "detail": "13:00 – 17:00 (cocina cierra 16:00)"
+      },
+      "weekdays": {
+        "label": "Lun – jue",
+        "detail": "Eventos privados bajo consulta"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Sagardotegi vasco · cocina de temporada · mesas largas",
+    "contact": "Contacto",
+    "visit": "Visita",
+    "photoCredit": "Fotografía provisional de Unsplash — ver"
+  },
+  "bookPage": {
+    "eyebrow": "Reservas",
+    "title": "La reserva online llegará pronto",
+    "body": "El flujo completo de fecha, mesa y plano estará en una fase posterior. Esta página confirma el enlace de reserva — aún no hay disponibilidad.",
+    "backHome": "Volver al inicio"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Crear cuenta"
+  },
+  "booking": {
+    "title": "Reservar mesa",
+    "myBookings": "Mis reservas"
+  },
+  "staff": {
+    "dashboard": "Panel de personal"
+  },
+  "admin": {
+    "dashboard": "Panel de administración"
+  },
+  "common": {
+    "siteName": "Haritz Sagardotegia"
+  }
+}

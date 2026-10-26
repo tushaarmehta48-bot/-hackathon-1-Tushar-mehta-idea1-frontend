@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "siteDescription": "Basque cider house reservations — seasonal kitchen, txotx services, and long-table dining.",
+    "bookTitle": "Book a table",
+    "bookDescription": "Online booking for Haritz Sagardotegia."
+  },
+  "nav": {
+    "menu": "Menu",
+    "experiences": "Experiences",
+    "visit": "Visit",
+    "book": "Book a table",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primary": "Primary",
+    "mobile": "Mobile",
+    "language": "Language"
+  },
+  "localeNames": {
+    "en": "English",
+    "es": "Español",
+    "eu": "Euskara",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "hero": {
+    "eyebrow": "Gipuzkoa · Sagardotegia",
+    "title": "Fire, cider, and the pace of the season",
+    "lead": "Basque cider house · seasonal kitchen · long tables. Reserve your place at the long table — txotx services, cider from the barrel, and a kitchen that follows the calendar.",
+    "book": "Book a table",
+    "viewMenu": "View the menu"
+  },
+  "menuSection": {
+    "eyebrow": "Menu",
+    "title": "Kitchen tied to the orchard and the grill",
+    "description": "Final dishes and pricing will be managed from the admin panel. These cards preview the tone of the house menu.",
+    "availabilityNote": "Availability shown at booking",
+    "cards": {
+      "txotx": {
+        "title": "Txotx midday",
+        "body": "Cod omelette, steak, cheese, and walnuts — cider poured from the kupela between courses.",
+        "alt": "Seasonal plate on a rustic table"
+      },
+      "grill": {
+        "title": "Evening grill",
+        "body": "Wood-fire txuleta, garden peppers, and shared sides. Service at unhurried cider-house rhythm.",
+        "alt": "Warm dining room with set tables"
+      },
+      "cellar": {
+        "title": "Sunday cellar",
+        "body": "Lighter menu with local cheese, txakoli pairings, and pastry from the same stone oven.",
+        "alt": "Guests gathered around a table"
+      }
+    }
+  },
+  "season": {
+    "eyebrow": "Seasonal highlight",
+    "title": "Txotx season",
+    "body": "From January through April, cider flows directly from the barrel. Book a midday txotx service and stay for the fire-grilled menu.",
+    "cta": "Plan your visit"
+  },
+  "experiencesSection": {
+    "eyebrow": "Experiences",
+    "title": "More than a reservation slot",
+    "description": "Special services will tie into season rules and capacity in later phases. Icons mark experience types guests can filter when booking goes live.",
+    "imageAlt": "Long table with guests sharing a meal",
+    "items": {
+      "txotx": {
+        "title": "Barrel-side txotx",
+        "body": "Guided visits to the cellar with controlled pours and timed seatings during cider season."
+      },
+      "evenings": {
+        "title": "Basque evenings",
+        "body": "Occasional trikitixa sets and communal suppers — dates published when seasons are confirmed."
+      },
+      "orchard": {
+        "title": "Orchard walks",
+        "body": "Short guided walks among apple trees before selected Sunday services (weather permitting)."
+      }
+    }
+  },
+  "visitSection": {
+    "eyebrow": "Visit",
+    "title": "Find us in the haritz",
+    "description": "Opening hours will follow admin-configured seasons. Times below are placeholders for layout and copy review.",
+    "address": "Address",
+    "openMaps": "Open in maps",
+    "telephone": "Telephone",
+    "phoneNote": "for same-day changes and walk-in enquiries.",
+    "openingTimes": "Opening times",
+    "mapPlaceholder": "Interactive map embed can replace this block once the venue coordinates are confirmed.",
+    "mapAria": "Map placeholder for future embed",
+    "hours": {
+      "weekend": {
+        "label": "Friday & Saturday",
+        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      },
+      "sunday": {
+        "label": "Sunday",
+        "detail": "13:00 – 17:00 (kitchen closes 16:00)"
+      },
+      "weekdays": {
+        "label": "Mon – Thu",
+        "detail": "Private events by arrangement"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Basque cider house · seasonal kitchen · long tables",
+    "contact": "Contact",
+    "visit": "Visit",
+    "photoCredit": "Placeholder photography via Unsplash — see"
+  },
+  "bookPage": {
+    "eyebrow": "Reservations",
+    "title": "Booking opens soon",
+    "body": "The full date, table, and floor-plan flow will arrive in a later phase. This page confirms the book action from the homepage — no availability is shown here yet.",
+    "backHome": "Back to home"
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Create account"
+  },
+  "booking": {
+    "title": "Book a table",
+    "myBookings": "My bookings"
+  },
+  "staff": {
+    "dashboard": "Staff dashboard"
+  },
+  "admin": {
+    "dashboard": "Admin dashboard"
+  },
+  "common": {
+    "siteName": "Haritz Sagardotegia"
+  }
+}
