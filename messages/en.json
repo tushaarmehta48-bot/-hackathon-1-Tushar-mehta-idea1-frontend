@@ -515,15 +515,6 @@
     "signedInAs": "Signed in as {name}",
     "goToBookings": "View my bookings",
     "continueToApp": "Continue to booking",
-    "oauth": {
-      "divider": "Or continue with",
-      "google": "Continue with Google",
-      "redirecting": "Redirecting…",
-      "errors": {
-        "start": "Could not start sign-in. Check that the provider is enabled in Supabase.",
-        "callback": "Sign-in was cancelled or failed. Try again or use email and password."
-      }
-    },
     "adminTitle": "Administration",
     "staffTitle": "Staff",
     "adminDashboard": "Admin dashboard",
