@@ -3,7 +3,8 @@
 import { FormEvent, useState } from "react";
 import { useTranslations } from "next-intl";
 import { createSupabaseBrowserClient } from "@/lib/supabase/client";
-import { fetchMe, type MeResponse } from "@/lib/api-client";
+import { ApiError, fetchMe, type MeResponse } from "@/lib/api-client";
+import { customerSignUpErrorMessage, registerCustomerAccount } from "@/lib/customer-auth-api";
 import { Button } from "@/components/ui/button";
 
 type LoginFormProps = {
@@ -32,13 +33,22 @@ export function LoginForm({
 
     try {
       const supabase = createSupabaseBrowserClient();
-      const authResult =
-        mode === "signIn"
-          ? await supabase.auth.signInWithPassword({ email, password })
-          : await supabase.auth.signUp({ email, password });
+
+      if (mode === "signUp") {
+        try {
+          await registerCustomerAccount(email, password);
+        } catch (registerErr) {
+          setError(customerSignUpErrorMessage(registerErr, t));
+          return;
+        }
+      }
+
+      const authResult = await supabase.auth.signInWithPassword({ email, password });
 
       if (authResult.error) {
-        setError(t("errors.invalidCredentials"));
+        setError(
+          mode === "signUp" ? t("errors.signUpSignInFailed") : t("errors.invalidCredentials"),
+        );
         return;
       }
 

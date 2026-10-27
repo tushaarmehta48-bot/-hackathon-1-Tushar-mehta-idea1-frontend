@@ -522,6 +522,9 @@
     "loading": "Loading session…",
     "errors": {
       "invalidCredentials": "Invalid email or password.",
+      "emailAlreadyRegistered": "An account with this email already exists. Sign in instead.",
+      "signUpFailed": "Could not create your account. Try a different email or a longer password.",
+      "signUpSignInFailed": "Account was created but sign-in failed. Try signing in with your email and password.",
       "invalidPortalCredentials": "Invalid user ID or password.",
       "confirmEmail": "Check your email to confirm your account before signing in.",
       "wrongArea": "This account cannot access this area. Sign in with your staff or admin portal credentials.",

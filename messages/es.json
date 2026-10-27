@@ -452,6 +452,9 @@
     "loading": "Cargando sesión…",
     "errors": {
       "invalidCredentials": "Correo o contraseña incorrectos.",
+      "emailAlreadyRegistered": "Ya existe una cuenta con este correo. Inicie sesión.",
+      "signUpFailed": "No se pudo crear la cuenta. Pruebe otro correo o una contraseña más larga.",
+      "signUpSignInFailed": "Cuenta creada, pero no se pudo iniciar sesión. Intente entrar con su correo y contraseña.",
       "confirmEmail": "Confirme su cuenta desde el correo antes de entrar.",
       "wrongArea": "Esta cuenta no puede acceder aquí. Use la página de acceso correcta.",
       "generic": "Algo falló. Inténtelo de nuevo."
