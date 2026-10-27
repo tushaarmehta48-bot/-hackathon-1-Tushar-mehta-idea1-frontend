@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   faClock,
   faLocationDot,
@@ -9,7 +10,7 @@ import { site } from "@/content/site";
 import { SectionHeading } from "@/components/layout/section-heading";
 import { Reveal } from "@/components/motion/reveal";
 
-const hourKeys = ["weekend", "sunday", "weekdays"] as const;
+const hourKeys = ["open", "dinners", "closed", "holidays"] as const;
 
 export async function VisitSection() {
   const t = await getTranslations("visitSection");
@@ -62,12 +63,21 @@ export async function VisitSection() {
                   <dt className="font-heading text-lg text-forest">{t("telephone")}</dt>
                   <dd className="mt-1 text-sm text-muted">
                     <a
-                      href={`tel:${site.contact.phone.replace(/\s/g, "")}`}
+                      href={`tel:${site.contact.phoneTel}`}
                       className="text-forest underline-offset-2 hover:underline"
                     >
                       {site.contact.phone}
-                    </a>{" "}
-                    {t("phoneNote")}
+                    </a>
+                    {" · "}
+                    <a
+                      href={site.contact.whatsapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-forest underline-offset-2 hover:underline"
+                    >
+                      {t("whatsapp")}
+                    </a>
+                    <p className="mt-2 text-sm text-muted">{t("phoneNote")}</p>
                   </dd>
                 </div>
               </div>
@@ -96,13 +106,17 @@ export async function VisitSection() {
             </dl>
           </Reveal>
           <Reveal delay={0.08}>
-            <div
-              className="flex min-h-[280px] items-center justify-center border border-dashed border-line bg-cream-dark/60 p-8 text-center"
-              role="img"
-              aria-label={t("mapAria")}
-            >
-              <p className="max-w-xs text-sm leading-relaxed text-muted">
-                {t("mapPlaceholder")}
+            <div className="relative min-h-[280px] overflow-hidden border border-line">
+              <Image
+                src="/images/iturrieta-terrace.jpg"
+                alt={t("imageAlt")}
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-linear-to-t from-forest/75 via-transparent to-transparent" />
+              <p className="absolute bottom-0 p-6 text-sm leading-relaxed text-cream/95">
+                {t("imageCaption")}
               </p>
             </div>
           </Reveal>

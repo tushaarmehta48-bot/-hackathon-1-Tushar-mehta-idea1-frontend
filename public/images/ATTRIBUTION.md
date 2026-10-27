@@ -1,9 +1,20 @@
-# Image credits (Unsplash License)
+# Photography
 
-| File | Source |
-|------|--------|
-| `hero-dining.jpg` | [Louis Hansel](https://unsplash.com/photos/person-holding-burger-beside-wine-glass-4c7edcad34c4) |
-| `menu-plating.jpg` | [Thomas Serer](https://unsplash.com/photos/white-and-brown-dish-on-white-ceramic-plate-a2e8c0) |
-| `experience-gathering.jpg` | [Timothy Barlin](https://unsplash.com/photos/group-of-people-sitting-on-chair-11d035aa65de) |
+Homepage and booking imagery are local copies sourced from [Iturrieta Sagardotegia](https://iturrieta.eus/) (© Iturrieta / Enekografía).
 
-Replace with venue-owned photography before production launch.
+Files:
+
+- `iturrieta-hero-caserio.jpg`
+- `iturrieta-about-farmhouse.jpg`
+- `iturrieta-apple.jpg`
+- `iturrieta-kupelas.jpg`
+- `iturrieta-orchard.jpg`
+- `iturrieta-concerts.jpg`
+- `iturrieta-txotx.jpg`
+- `iturrieta-terrace.jpg`
+- Menu / grill gallery (from [Menus](https://iturrieta.eus/English/MENUS/)): `iturrieta-menu-bacalao.jpg`, `iturrieta-menu-pulpo.jpg`, `iturrieta-menu-chuleton-plato.jpg`, `iturrieta-menu-chuleton.jpg`, `iturrieta-menu-parrilla.jpg`, `iturrieta-menu-cocina.jpg`, `iturrieta-menu-comedor.jpg`, `iturrieta-menu-kupelas.jpg`
+
+Re-download homepage assets: `node scripts/download-iturrieta-images.mjs`  
+Re-download menu grill gallery: `node scripts/download-iturrieta-menu-grill-images.mjs` (or use curl if fetch times out)
+
+**Booking table-type cards** (`public/images/table-tier/*.jpg`) — sourced from [Unsplash](https://unsplash.com) (restaurant / dining photos).

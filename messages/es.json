@@ -2,19 +2,26 @@
   "meta": {
     "siteDescription": "Reservas en sagardotegi vasco — cocina de temporada, txotx y mesas compartidas.",
     "bookTitle": "Reservar mesa",
-    "bookDescription": "Reserva online en Haritz Sagardotegia."
+    "bookDescription": "Reserva online en Iturrieta Sagardotegia."
   },
   "nav": {
+    "about": "Nosotros",
     "menu": "Carta",
-    "experiences": "Experiencias",
-    "visit": "Visita",
+    "blog": "Noticias",
+    "experiences": "Visitas y eventos",
+    "visit": "Dónde estamos",
     "book": "Reservar mesa",
     "skipToContent": "Saltar al contenido",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "primary": "Principal",
     "mobile": "Móvil",
-    "language": "Idioma"
+    "language": "Idioma",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "accountLoading": "Cuenta…",
+    "accountMenu": "Menú de cuenta",
+    "myBookings": "Mis reservas"
   },
   "localeNames": {
     "en": "English",
@@ -24,102 +31,431 @@
     "fr": "Français"
   },
   "hero": {
-    "eyebrow": "Gipuzkoa · Sagardotegia",
-    "title": "Fuego, sidra y el ritmo de la temporada",
-    "lead": "Sagardotegi vasco · cocina de temporada · mesas largas. Reserve su sitio en la mesa común: servicios de txotx, sidra del barril y una cocina que sigue el calendario.",
+    "eyebrow": "Sagardotegia · Aramaio",
+    "title": "Del manzano al",
+    "titleAccent": "txotx.",
+    "lead": "Natural organic cider made with apples from Aramaio. Come and live the cider house experience, among mountains and great food.",
+    "leadSecondary": "Llame y reserve, o reserven online — la misma bienvenida en el caserío de Arraga.",
     "book": "Reservar mesa",
-    "viewMenu": "Ver la carta"
-  },
-  "menuSection": {
-    "eyebrow": "Carta",
-    "title": "Cocina ligada al huerto y a la parrilla",
-    "description": "Los platos y precios finales se gestionarán desde el panel de administración. Estas tarjetas anticipan el tono de la carta de la casa.",
-    "availabilityNote": "Disponibilidad al reservar",
-    "cards": {
+    "viewMenu": "Ver la carta",
+    "callPhone": "685 72 15 93",
+    "scrollHint": "Desplazar",
+    "gallery": {
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}"
+    },
+    "slides": {
+      "orchard": {
+        "alt": "Aramaio apple entering the press — hero scene from Iturrieta"
+      },
+      "caserio": {
+        "alt": "Iturrieta cider house among the Aramaio mountains"
+      },
+      "farmhouse": {
+        "alt": "Iturrieta farmhouse in the Arraga neighbourhood"
+      },
+      "kupelas": {
+        "alt": "Kupelas ready for txotx service"
+      },
       "txotx": {
-        "title": "Txotx del mediodía",
-        "body": "Tortilla de bacalao, chuleta, queso y nueces — sidra servida desde la kupela entre platos.",
-        "alt": "Plato de temporada en mesa rústica"
+        "alt": "Txotx atmosphere at the grill"
       },
-      "grill": {
-        "title": "Parrilla nocturna",
-        "body": "Txuleta a la leña, pimientos del huerto y guarniciones compartidas. Servicio al ritmo del sagardotegi.",
-        "alt": "Comedor cálido con mesas puestas"
+      "terrace": {
+        "alt": "Terrace with the snowy sierra beyond the valley"
       },
-      "cellar": {
-        "title": "Domingo en bodega",
-        "body": "Carta más ligera con queso local, maridajes de txakoli y repostería del mismo horno de piedra.",
-        "alt": "Comensales alrededor de una mesa"
+      "concerts": {
+        "alt": "Live music at the cider house"
       }
     }
   },
+  "aboutSection": {
+    "eyebrow": "Nosotros",
+    "title": "Un proyecto familiar en las montañas de Aramaio.",
+    "description": "Iturrieta es un proyecto agrícola familiar. En 1997 nos mudamos de Vitoria a esta bella caserío de Aramaio y convertimos los establos en sagardotegi, abriendo el Día de Santiago de 1998. Hoy cuidamos unos 1.400 manzanos.",
+    "motto": "Sagarretik txotxera — del manzano al txotx, sidra natural ecológica hecha en casa.",
+    "imageAlt": "Caserío Iturrieta en el barrio de Arraga, Aramaio",
+    "locationCaption": "Aramaio · Álava",
+    "stats": {
+      "trees": {
+        "label": "Manzanos",
+        "value": "1.400"
+      },
+      "cider": {
+        "label": "Sidra",
+        "value": "ECO"
+      },
+      "txotx": {
+        "label": "Txotx",
+        "value": "Ene – May"
+      }
+    }
+  },
+  "menuSection": {
+    "eyebrow": "La carta",
+    "title": "Menú de sagardotegi",
+    "description": "Menú de sagardotegi · todo el año. También servimos menú de temporada al mismo precio.",
+    "priceLabel": "Menú de sagardotegi",
+    "price": "45€",
+    "priceUnit": "por persona",
+    "kidsNote": "¿Viene con niños? Menú infantil 16 €.",
+    "hero": {
+      "eyebrow": "Iturrieta",
+      "previous": "Foto anterior",
+      "next": "Foto siguiente",
+      "counter": "{current} / {total}",
+      "slides": {
+        "orchard": {
+          "alt": "Huerto de manzanos en Aramaio",
+          "caption": "Manzanas ecológicas de nuestros árboles."
+        },
+        "kupelas": {
+          "alt": "Kupelas listas para el txotx",
+          "caption": "Sidra natural directamente de la kupela en temporada."
+        },
+        "txotx": {
+          "alt": "Txotx en el sagardotegi",
+          "caption": "La experiencia del sagardotegi junto a la parrilla."
+        },
+        "terrace": {
+          "alt": "Terraza con el valle de Aramaio",
+          "caption": "Entre montañas, a media hora de Vitoria."
+        },
+        "apple": {
+          "alt": "Manzana de Aramaio",
+          "caption": "De nuestra manzana, sidra natural."
+        },
+        "farmhouse": {
+          "alt": "Caserío de piedra en Iturrieta",
+          "caption": "Caserío familiar desde 1998."
+        }
+      }
+    },
+    "dishes": {
+      "chorizo": {
+        "name": "Chorizo a la sidra",
+        "detail": "Txorizoa sagardotan"
+      },
+      "codScramble": {
+        "name": "Revuelto de bacalao",
+        "detail": "Bakailao nahaskia"
+      },
+      "codPeppers": {
+        "name": "Bacalao con pimientos asados y cebolla a la sidra",
+        "detail": "Bakailaoa piper erretan eta tipula sagardotan"
+      },
+      "steak": {
+        "name": "Chuletón a la parrilla",
+        "detail": "Txuletoia parrillan"
+      },
+      "cheese": {
+        "name": "Queso Idiazabal, membrillo y nueces",
+        "detail": "Idiazabal gazta, irasagarra eta intxaurrak"
+      },
+      "cider": {
+        "name": "Sidra natural ecológica Iturrieta ECO",
+        "detail": "Sagardo «Iturrieta» ECO — sidra de la casa"
+      }
+    },
+    "cider": {
+      "eyebrow": "La sidra",
+      "title": "De nuestra manzana, sidra natural.",
+      "body": "Cultivamos manzanas ecológicas en Aramaio y elaboramos nuestra sidra natural. En temporada de txotx, de enero a mayo, la servimos directamente de la kupela; el resto del año, embotellada.",
+      "shop": "Llévese a casa nuestra sidra y zumo de manzana ecológico de nuestra tienda.",
+      "highlights": {
+        "trees": {
+          "label": "Manzanos",
+          "value": "1.400"
+        },
+        "eco": {
+          "label": "Ecológica",
+          "value": "ECO"
+        },
+        "txotxSeason": {
+          "label": "Txotx",
+          "value": "Ene – May"
+        }
+      }
+    },
+    "foodGallery": {
+      "eyebrow": "Desde la cocina",
+      "title": "Esto es lo que sale de la parrilla",
+      "lead": "Bacalao, pulpo, chuletón y la parrilla de carbón — las mismas escenas que en nuestro menú de sagardotegi.",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "slides": {
+        "bacalao": {
+          "alt": "Cod with peppers and crisp onion",
+          "caption": "Bacalao con pimientos y cebolla crujiente."
+        },
+        "pulpo": {
+          "alt": "Pulpo a la brasa",
+          "caption": "Pulpo a la brasa."
+        },
+        "chuletonPlated": {
+          "alt": "Chuletón en el plato",
+          "caption": "Chuletón, ya en el plato."
+        },
+        "chuletonBeforeGrill": {
+          "alt": "Chuletones antes de la brasa",
+          "caption": "Chuletones antes de la brasa."
+        },
+        "charcoalGrill": {
+          "alt": "La parrilla de carbón",
+          "caption": "La parrilla de carbón."
+        },
+        "kitchen": {
+          "alt": "La cocina en pleno servicio",
+          "caption": "La cocina, en pleno servicio."
+        },
+        "diningRoom": {
+          "alt": "El comedor de la sidrería",
+          "caption": "El comedor de la sidrería."
+        },
+        "kupelas": {
+          "alt": "Kupelas listas para el txotx",
+          "caption": "Las kupelas, listas para el txotx."
+        }
+      }
+    },
+    "seasonalMenu": {
+      "title": "Menú de temporada · mismos 45 €",
+      "body": "También servimos menú de temporada al mismo precio — platos según cosecha y parrilla, con asados y aves cuando hay. Pregunte al reservar."
+    },
+    "produce": {
+      "eyebrow": "Lo que elaboramos",
+      "title": "Sidra, zumo y huerto",
+      "body": "Manzanas ecológicas de nuestros 1.400 árboles, sidra natural Iturrieta ECO y zumo para llevar — Sagarretik txotxera."
+    }
+  },
   "season": {
-    "eyebrow": "Destacado de temporada",
-    "title": "Temporada de txotx",
-    "body": "De enero a abril, la sidra sale directamente del barril. Reserve un txotx de mediodía y quédese con el menú a la parrilla.",
-    "cta": "Planifique su visita"
+    "eyebrow": "Txotx",
+    "title": "¡Txotx!",
+    "body": "Viva la experiencia del sagardotegi: sidra directamente de la kupela, la parrilla y un ambiente acogedor.",
+    "cta": "Reservar mesa",
+    "bodySecondary": "Enero a mayo — sidra de barril, menú a la parrilla y ritual txotx en la kupela."
   },
   "experiencesSection": {
-    "eyebrow": "Experiencias",
-    "title": "Más que una franja de reserva",
-    "description": "Los servicios especiales se vincularán a temporadas y aforo en fases posteriores. Los iconos marcan tipos de experiencia para filtrar al reservar.",
-    "imageAlt": "Mesa larga con comensales compartiendo",
+    "eyebrow": "Visitas y eventos",
+    "title": "Música y visitas guiadas",
+    "description": "Conciertos en el sagardotegi todo el año y visitas guiadas para ver cómo nace la sidra.",
+    "imageAlt": "Música en vivo en Iturrieta Sagardotegia",
     "items": {
-      "txotx": {
-        "title": "Txotx junto al barril",
-        "body": "Visitas guiadas a la bodega con servicios controlados y horarios durante la temporada de sidra."
+      "music": {
+        "title": "Música en vivo en el sagardotegi",
+        "body": "Organizamos música en vivo todo el año. El escenario cambia con la temporada; el ambiente, no.",
+        "summerLabel": "En verano",
+        "summerBody": "En la terraza, con el valle de Aramaio delante.",
+        "winterLabel": "En invierno",
+        "winterBody": "En el interior, junto a la chimenea."
       },
-      "evenings": {
-        "title": "Noches vascas",
-        "body": "Actuaciones ocasionales de trikitixa y cenas comunitarias — fechas al confirmar temporadas."
-      },
-      "orchard": {
-        "title": "Paseos por el huerto",
-        "body": "Breves rutas guiadas entre manzanos antes de algunos servicios dominicales (según meteorología)."
+      "visits": {
+        "title": "Descubra cómo nace la sidra",
+        "body": "Visita guiada al caserío, manzanos y proceso de elaboración. Ideal para familias y grupos.",
+        "points": {
+          "farmhouse": "El caserío y el entorno de Aramaio",
+          "orchard": "Los manzanos y la vendimia",
+          "making": "La elaboración de la sidra natural"
+        }
       }
     }
   },
   "visitSection": {
-    "eyebrow": "Visita",
-    "title": "Estamos en el barrio Haritz",
-    "description": "El horario seguirá las temporadas configuradas en administración. Los horarios siguientes son orientativos.",
+    "eyebrow": "Dónde estamos",
+    "title": "Entre montañas, a 30 minutos de Vitoria.",
+    "description": "El caserío, la terraza y los manzanos, en el fondo del valle de Aramaio. Reservas online, por teléfono y WhatsApp.",
     "address": "Dirección",
     "openMaps": "Abrir en mapas",
     "telephone": "Teléfono",
-    "phoneNote": "para cambios el mismo día y consultas sin reserva.",
+    "whatsapp": "WhatsApp",
+    "phoneNote": "Llame o escríbanos para confirmar mesa o consultar grupos.",
     "openingTimes": "Horario",
-    "mapPlaceholder": "Aquí puede integrarse un mapa interactivo cuando se confirmen las coordenadas del local.",
-    "mapAria": "Marcador de posición del mapa",
+    "imageAlt": "Terraza de Iturrieta con la sierra al fondo",
+    "imageCaption": "La terraza y el valle — en el corazón de Aramaio.",
     "hours": {
-      "weekend": {
-        "label": "Viernes y sábado",
-        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      "open": {
+        "label": "Jueves – domingo",
+        "detail": "13:00 – 16:00"
       },
-      "sunday": {
-        "label": "Domingo",
-        "detail": "13:00 – 17:00 (cocina cierra 16:00)"
+      "dinners": {
+        "label": "Cenas",
+        "detail": "Solo con cita previa"
       },
-      "weekdays": {
-        "label": "Lun – jue",
-        "detail": "Eventos privados bajo consulta"
+      "closed": {
+        "label": "Lunes – miércoles",
+        "detail": "Cerrado · grupos bajo consulta"
+      },
+      "holidays": {
+        "label": "Festividades",
+        "detail": "Cerrado del 24 de diciembre al 1 de enero"
       }
     }
   },
   "footer": {
-    "tagline": "Sagardotegi vasco · cocina de temporada · mesas largas",
+    "tagline": "Sidra natural ecológica en el corazón de Aramaio.",
     "contact": "Contacto",
     "visit": "Visita",
-    "photoCredit": "Fotografía provisional de Unsplash — ver"
+    "photoCredit": "Fotografías © Iturrieta / Enekografía — ver"
   },
-  "bookPage": {
+  "bookFlow": {
     "eyebrow": "Reservas",
-    "title": "La reserva online llegará pronto",
-    "body": "El flujo completo de fecha, mesa y plano estará en una fase posterior. Esta página confirma el enlace de reserva — aún no hay disponibilidad.",
-    "backHome": "Volver al inicio"
+    "title": "Reservar mesa",
+    "lead": "Elija fecha, servicio y mesa en la mesa larga — el mismo ritmo tranquilo del txotx, sin colas telefónicas.",
+    "intro": "Empiece por el día. Los servicios de temporada y el tamaño de mesa siguen el calendario de la casa.",
+    "stepsProgress": "Pasos de la reserva",
+    "loading": "Cargando…",
+    "steps": {
+      "when": "Fecha",
+      "time": "Servicio",
+      "table": "Mesa",
+      "details": "Confirmar"
+    },
+    "fields": {
+      "date": "Fecha",
+      "partySize": "Comensales",
+      "partyCustom": "O indique un número (1–10)",
+      "service": "Servicio",
+      "chooseService": "Elija un servicio",
+      "time": "Hora",
+      "specialRequest": "Peticiones (opcional)",
+      "specialRequestPlaceholder": "Alergias, celebraciones, accesibilidad…",
+      "terms": "Acepto las condiciones de reserva, incluidas cancelaciones y normas de mesa."
+    },
+    "hints": {
+      "season": "Temporada txotx: enero–abril; viernes y sábado cuando haya servicio.",
+      "floorPlan": "Toque una mesa disponible en el plano. Las grises están ocupadas o no admiten su grupo."
+    },
+    "summary": {
+      "heading": "Su visita",
+      "date": "Fecha",
+      "party": "Comensales",
+      "service": "Servicio",
+      "time": "Hora",
+      "table": "Mesa"
+    },
+    "gallery": {
+      "previous": "Foto anterior",
+      "next": "Foto siguiente",
+      "counter": "{current} / {total}",
+      "altCheers": "Amigos brindando con copas",
+      "altSteak": "Chuleta recién hecha a la parrilla",
+      "altSeasonal": "Ensalada de temporada en plato blanco",
+      "altCoastal": "Mesa servida con luz suave",
+      "altBread": "Pan rústico y acompañamientos",
+      "altGrillPlate": "Plato a la parrilla en plato blanco",
+      "captions": {
+        "whenCommunal": "Mesas compartidas — el alma del sagardotegi.",
+        "whenRoom": "Piedra, madera y luz de velas antes del servicio.",
+        "whenSeason": "La cocina sigue el calendario del huerto.",
+        "timeEvening": "Servicio nocturno sin prisas.",
+        "timeTxotx": "Txotx del mediodía — sidra entre platos.",
+        "timeKitchen": "Parrilla y huerta en la misma carta.",
+        "tableHall": "Elija su sitio en la sala principal.",
+        "tableLong": "Mesas largas para familia y amigos.",
+        "tableReady": "Su mesa preparada para el servicio.",
+        "detailsDish": "Platos de temporada del mismo fuego.",
+        "detailsArrival": "Tendremos su mesa señalada.",
+        "detailsWelcome": "Una acogida cálida al llegar.",
+        "doneHeld": "Su reserva está confirmada.",
+        "doneSeeYou": "Le esperamos en Aramaio.",
+        "doneTable": "Sidra, fuego y mesa larga le aguardan."
+      }
+    },
+    "aside": {
+      "when": "Mesas largas, ritmo compartido — elija el día para su grupo.",
+      "time": "Txotx del mediodía o parrilla nocturna — cada servicio tiene su ritmo.",
+      "table": "Elija su sitio en la sala; el plano refleja la disponibilidad en vivo.",
+      "details": "Cuéntenos lo que debamos saber antes de su llegada.",
+      "done": "Su plaza está reservada — traiga este pase para una acogida ágil.",
+      "whenAlt": "Comensales en una mesa larga",
+      "timeAlt": "Comedor cálido con copas en la mesa",
+      "tableAlt": "Vista del comedor desde el plano de reserva",
+      "detailsAlt": "Plato de temporada en cerámica",
+      "doneAlt": "Comensales reunidos para una comida compartida"
+    },
+    "floor": {
+      "available": "Disponible",
+      "unavailable": "No disponible",
+      "selected": "seleccionada"
+    },
+    "actions": {
+      "continue": "Continuar",
+      "back": "Atrás",
+      "confirm": "Confirmar reserva"
+    },
+    "confirmed": {
+      "eyebrow": "Confirmada",
+      "title": "Mesa reservada",
+      "body": "Guarde el pase de entrada. También está en Mis reservas en este dispositivo.",
+      "reference": "Referencia",
+      "qrHint": "Pase no disponible en este dispositivo — use el mismo dispositivo de la reserva o contacte con la referencia.",
+      "viewBooking": "Ver reserva",
+      "bookMore": "Reservar otra mesa"
+    },
+    "errors": {
+      "generic": "Algo falló. Inténtelo de nuevo.",
+      "dateInPast": "Elija hoy o una fecha futura — no se pueden reservar días pasados.",
+      "noAvailability": "No hay servicios para esa fecha y número de comensales.",
+      "noTables": "No hay mesas libres. Elija otra hora.",
+      "conflict": "Esa mesa acaba de reservarse. Elija otra mesa u hora."
+    }
+  },
+  "myBookings": {
+    "title": "Mis reservas",
+    "eyebrow": "Cuenta",
+    "loading": "Cargando reservas…",
+    "empty": "Aún no tiene reservas.",
+    "bookNow": "Reservar mesa",
+    "party": "{count, plural, one {# comensal} other {# comensales}}",
+    "qrAvailable": "QR de check-in en el detalle de la reserva",
+    "errors": {
+      "load": "No se pudieron cargar las reservas."
+    }
+  },
+  "bookingDetail": {
+    "title": "Reserva",
+    "loading": "Cargando…",
+    "when": "Cuándo",
+    "service": "Servicio",
+    "table": "Mesa",
+    "party": "Comensales",
+    "notes": "Notas",
+    "reference": "Referencia",
+    "qrHint": "Abra la reserva en el dispositivo usado al reservar para ver el QR, o contacte con la referencia.",
+    "backToList": "Todas las reservas",
+    "cancel": "Cancelar reserva",
+    "cancelling": "Cancelando…",
+    "cancelConfirm": "¿Cancelar esta reserva? No se puede deshacer.",
+    "cancelDeadline": "Cancelación gratuita hasta {date}.",
+    "errors": {
+      "load": "No se pudo cargar la reserva.",
+      "forbidden": "No tiene acceso a esta reserva.",
+      "notCancellable": "Ya no se puede cancelar online.",
+      "generic": "Algo falló. Inténtelo de nuevo."
+    }
   },
   "auth": {
     "login": "Iniciar sesión",
-    "register": "Crear cuenta"
+    "signIn": "Iniciar sesión",
+    "register": "Crear cuenta",
+    "signOut": "Cerrar sesión",
+    "signingIn": "Entrando…",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "customerArea": "Cuenta de cliente",
+    "customerHint": "Reserve y gestione sus reservas. El personal y la administración tienen accesos separados.",
+    "adminTitle": "Administración",
+    "staffTitle": "Personal",
+    "adminDashboard": "Panel de administración",
+    "staffDashboard": "Panel de personal",
+    "loading": "Cargando sesión…",
+    "errors": {
+      "invalidCredentials": "Correo o contraseña incorrectos.",
+      "confirmEmail": "Confirme su cuenta desde el correo antes de entrar.",
+      "wrongArea": "Esta cuenta no puede acceder aquí. Use la página de acceso correcta.",
+      "generic": "Algo falló. Inténtelo de nuevo."
+    }
   },
   "booking": {
     "title": "Reservar mesa",
@@ -128,10 +464,57 @@
   "staff": {
     "dashboard": "Panel de personal"
   },
+  "staffDesk": {
+    "eyebrow": "Operaciones",
+    "title": "Mostrador de personal",
+    "signOut": "Cerrar sesión",
+    "loading": "Cargando…",
+    "dayView": {
+      "title": "Vista del día",
+      "date": "Fecha",
+      "search": "Buscar referencia",
+      "searchPlaceholder": "HS-…",
+      "refresh": "Actualizar",
+      "empty": "No hay reservas para este día.",
+      "guests": "comensales"
+    },
+    "checkIn": {
+      "title": "Check-in",
+      "hint": "Escanee el QR del cliente con la cámara o busque por referencia abajo.",
+      "cameraTitle": "Escanear QR",
+      "cameraError": "Cámara no disponible. Permita el acceso o use búsqueda manual.",
+      "manualTitle": "Búsqueda manual",
+      "invalid": "QR no válido — no hay reserva coincidente.",
+      "notEligible": "{reference}: no válido para check-in ({message}).",
+      "success": "Check-in correcto para {reference}.",
+      "placeholder": "Referencia o token QR",
+      "lookup": "Buscar",
+      "confirm": "Confirmar check-in"
+    },
+    "walkIn": {
+      "title": "Teléfono / sin reserva",
+      "hint": "Reserva la siguiente mesa disponible para la fecha seleccionada (primer hueco libre).",
+      "party": "Comensales",
+      "source": "Origen",
+      "walkIn": "Sin reserva",
+      "phone": "Teléfono",
+      "create": "Crear reserva",
+      "lastAvailability": "{count} servicio(s) comprobados para disponibilidad."
+    },
+    "errors": {
+      "loadDay": "No se pudieron cargar las reservas.",
+      "generic": "Algo salió mal.",
+      "notFound": "Ninguna reserva coincide con esa búsqueda.",
+      "duplicateCheckIn": "El cliente ya ha hecho check-in.",
+      "noSlot": "No hay huecos libres para esa fecha y número de comensales.",
+      "noTable": "No hay mesa libre en el primer hueco.",
+      "walkIn": "No se pudo crear la reserva sin cita previa."
+    }
+  },
   "admin": {
     "dashboard": "Panel de administración"
   },
   "common": {
-    "siteName": "Haritz Sagardotegia"
+    "siteName": "Iturrieta Sagardotegia"
   }
 }

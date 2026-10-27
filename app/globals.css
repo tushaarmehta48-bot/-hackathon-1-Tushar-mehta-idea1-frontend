@@ -11,6 +11,7 @@
   --ink: #1a1814;
   --muted: #5c574f;
   --line: #d4cbb8;
+  --gold: #c4a35a;
 }
 
 @theme inline {
@@ -24,6 +25,7 @@
   --color-ink: var(--ink);
   --color-muted: var(--muted);
   --color-line: var(--line);
+  --color-gold: var(--gold);
   --font-family-heading: var(--font-cormorant), ui-serif, Georgia, serif;
   --font-family-body: var(--font-source-serif), ui-serif, Georgia, serif;
 }

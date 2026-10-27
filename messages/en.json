@@ -1,20 +1,27 @@
 {
   "meta": {
-    "siteDescription": "Basque cider house reservations — seasonal kitchen, txotx services, and long-table dining.",
+    "siteDescription": "Iturrieta Sagardotegia — organic cider from Aramaio, cider house menu, txotx, and table reservations.",
     "bookTitle": "Book a table",
-    "bookDescription": "Online booking for Haritz Sagardotegia."
+    "bookDescription": "Online booking for Iturrieta Sagardotegia."
   },
   "nav": {
+    "about": "About",
     "menu": "Menu",
-    "experiences": "Experiences",
-    "visit": "Visit",
+    "blog": "News",
+    "experiences": "Visits & events",
+    "visit": "Find us",
     "book": "Book a table",
     "skipToContent": "Skip to content",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "primary": "Primary",
     "mobile": "Mobile",
-    "language": "Language"
+    "language": "Language",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "accountLoading": "Account…",
+    "accountMenu": "Account menu",
+    "myBookings": "My bookings"
   },
   "localeNames": {
     "en": "English",
@@ -24,102 +31,553 @@
     "fr": "Français"
   },
   "hero": {
-    "eyebrow": "Gipuzkoa · Sagardotegia",
-    "title": "Fire, cider, and the pace of the season",
-    "lead": "Basque cider house · seasonal kitchen · long tables. Reserve your place at the long table — txotx services, cider from the barrel, and a kitchen that follows the calendar.",
+    "eyebrow": "Sagardotegia · Aramaio",
+    "title": "From apple tree to",
+    "titleAccent": "txotx.",
+    "lead": "Natural organic cider made with apples from Aramaio. Come and live the cider house experience, among mountains and great food.",
+    "leadSecondary": "Call and book, or reserve online — same warm welcome at the Arraga farmhouse.",
     "book": "Book a table",
-    "viewMenu": "View the menu"
+    "viewMenu": "See the menu",
+    "callPhone": "685 72 15 93",
+    "scrollHint": "Scroll",
+    "gallery": {
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}"
+    },
+    "slides": {
+      "orchard": {
+        "alt": "Aramaio apple entering the press — hero scene from Iturrieta"
+      },
+      "caserio": {
+        "alt": "Iturrieta cider house among the Aramaio mountains"
+      },
+      "farmhouse": {
+        "alt": "Iturrieta farmhouse in the Arraga neighbourhood"
+      },
+      "kupelas": {
+        "alt": "Kupelas ready for txotx service"
+      },
+      "txotx": {
+        "alt": "Txotx atmosphere at the grill"
+      },
+      "terrace": {
+        "alt": "Terrace with the snowy sierra beyond the valley"
+      },
+      "concerts": {
+        "alt": "Live music at the cider house"
+      }
+    }
+  },
+  "aboutSection": {
+    "eyebrow": "About us",
+    "title": "A family project in the mountains of Aramaio.",
+    "description": "Iturrieta is a family farming project. In 1997 we moved from Vitoria to this beautiful farmhouse in Aramaio and turned the stables into a cider house, opening on St. James's Day 1998. Today we tend around 1,400 apple trees.",
+    "motto": "Sagarretik txotxera — from apple to txotx, natural organic cider made at home.",
+    "imageAlt": "Iturrieta farmhouse in the Arraga neighbourhood, Aramaio",
+    "locationCaption": "Aramaio · Álava",
+    "stats": {
+      "trees": { "label": "Apple trees", "value": "1,400" },
+      "cider": { "label": "Cider", "value": "ECO" },
+      "txotx": { "label": "Txotx", "value": "Jan – May" }
+    }
   },
   "menuSection": {
-    "eyebrow": "Menu",
-    "title": "Kitchen tied to the orchard and the grill",
-    "description": "Final dishes and pricing will be managed from the admin panel. These cards preview the tone of the house menu.",
-    "availabilityNote": "Availability shown at booking",
-    "cards": {
-      "txotx": {
-        "title": "Txotx midday",
-        "body": "Cod omelette, steak, cheese, and walnuts — cider poured from the kupela between courses.",
-        "alt": "Seasonal plate on a rustic table"
+    "eyebrow": "The menu",
+    "title": "Cider house menu",
+    "description": "Cider house menu · all year. We also serve a seasonal menu at the same price.",
+    "priceLabel": "Cider house menu",
+    "price": "45€",
+    "priceUnit": "per person",
+    "kidsNote": "Coming with kids? Children's menu €16.",
+    "foodGallery": {
+      "eyebrow": "From the kitchen",
+      "title": "This is what comes off the grill",
+      "lead": "Cod, octopus, chuletón and the charcoal grill — the same scenes as our cider house menu in Aramaio.",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "slides": {
+        "bacalao": {
+          "alt": "Cod with peppers and crisp onion",
+          "caption": "Bacalao con pimientos y cebolla crujiente."
+        },
+        "pulpo": {
+          "alt": "Grilled octopus",
+          "caption": "Pulpo a la brasa."
+        },
+        "chuletonPlated": {
+          "alt": "Chuletón, plated",
+          "caption": "Chuletón, ya en el plato."
+        },
+        "chuletonBeforeGrill": {
+          "alt": "Chuletón steaks before the embers",
+          "caption": "Chuletones antes de la brasa."
+        },
+        "charcoalGrill": {
+          "alt": "The charcoal grill",
+          "caption": "La parrilla de carbón."
+        },
+        "kitchen": {
+          "alt": "The kitchen, mid-service",
+          "caption": "La cocina, en pleno servicio."
+        },
+        "diningRoom": {
+          "alt": "The cider house dining room",
+          "caption": "El comedor de la sidrería."
+        },
+        "kupelas": {
+          "alt": "Barrels ready for txotx",
+          "caption": "Las kupelas, listas para el txotx."
+        }
+      }
+    },
+    "seasonalMenu": {
+      "title": "Seasonal menu · same €45",
+      "body": "We also serve a seasonal cider house menu at the same price — dishes rotate with the harvest and grill, including roasts and poultry when available. Ask when you book."
+    },
+    "produce": {
+      "eyebrow": "What we produce",
+      "title": "Cider, juice, and the orchard",
+      "body": "Organic apples from our 1,400 trees, natural Iturrieta ECO cider, and apple juice to take home from our shop — Sagarretik txotxera, from apple to txotx."
+    },
+    "hero": {
+      "eyebrow": "Iturrieta",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "slides": {
+        "orchard": {
+          "alt": "Apple orchard in Aramaio",
+          "caption": "Organic apples from our own trees."
+        },
+        "kupelas": {
+          "alt": "Cider barrels ready for txotx",
+          "caption": "Natural cider straight from the kupela in season."
+        },
+        "txotx": {
+          "alt": "Txotx at the cider house",
+          "caption": "Live the cider house experience at the grill."
+        },
+        "terrace": {
+          "alt": "Terrace with the Aramaio valley",
+          "caption": "Among the mountains, half an hour from Vitoria."
+        },
+        "apple": {
+          "alt": "Aramaio apple",
+          "caption": "From our apple, natural cider."
+        },
+        "farmhouse": {
+          "alt": "Stone farmhouse at Iturrieta",
+          "caption": "A family caserío since 1998."
+        }
+      }
+    },
+    "dishes": {
+      "chorizo": { "name": "Chorizo in cider", "detail": "Txorizoa sagardotan" },
+      "codScramble": { "name": "Cod scramble", "detail": "Bakailao nahaskia" },
+      "codPeppers": {
+        "name": "Cod with roasted peppers and cider onion",
+        "detail": "Bakailaoa piper erretan eta tipula sagardotan"
       },
-      "grill": {
-        "title": "Evening grill",
-        "body": "Wood-fire txuleta, garden peppers, and shared sides. Service at unhurried cider-house rhythm.",
-        "alt": "Warm dining room with set tables"
+      "steak": { "name": "Grilled chuletón", "detail": "Txuletoia parrillan" },
+      "cheese": {
+        "name": "Idiazabal cheese, quince and walnuts",
+        "detail": "Idiazabal gazta, irasagarra eta intxaurrak"
       },
-      "cellar": {
-        "title": "Sunday cellar",
-        "body": "Lighter menu with local cheese, txakoli pairings, and pastry from the same stone oven.",
-        "alt": "Guests gathered around a table"
+      "cider": {
+        "name": "Iturrieta ECO natural cider",
+        "detail": "Sagardo «Iturrieta» ECO — house organic cider"
+      }
+    },
+    "cider": {
+      "eyebrow": "The cider",
+      "title": "From our apple, natural cider.",
+      "body": "We grow organic apples in Aramaio and make our natural cider with them. During txotx season, January to May, we serve it straight from the kupela; the rest of the year, bottled.",
+      "shop": "Take home our cider and organic apple juice from our shop.",
+      "highlights": {
+        "trees": { "label": "Apple trees", "value": "1,400" },
+        "eco": { "label": "Organic", "value": "ECO" },
+        "txotxSeason": { "label": "Txotx", "value": "Jan – May" }
       }
     }
   },
   "season": {
-    "eyebrow": "Seasonal highlight",
-    "title": "Txotx season",
-    "body": "From January through April, cider flows directly from the barrel. Book a midday txotx service and stay for the fire-grilled menu.",
-    "cta": "Plan your visit"
+    "eyebrow": "Txotx",
+    "title": "Txotx!",
+    "body": "Live the cider house experience: cider straight from the kupela, the grill and the friendly atmosphere.",
+    "bodySecondary": "January to May — barrel cider, fire-grilled menu, and the txotx ritual in the kupela room.",
+    "cta": "Book a table"
+  },
+  "blogSection": {
+    "eyebrow": "From the house",
+    "title": "News & stories",
+    "description": "Seasonal menus, txotx dates, concerts, and news from Iturrieta.",
+    "readMore": "Read article",
+    "empty": "News will appear here when the team publishes articles from the admin console."
+  },
+  "blogArticle": {
+    "back": "Back to news"
   },
   "experiencesSection": {
-    "eyebrow": "Experiences",
-    "title": "More than a reservation slot",
-    "description": "Special services will tie into season rules and capacity in later phases. Icons mark experience types guests can filter when booking goes live.",
-    "imageAlt": "Long table with guests sharing a meal",
+    "eyebrow": "Visits & events",
+    "title": "Music and guided visits",
+    "description": "Concerts at the cider house all year, and guided visits to see how cider is born.",
+    "imageAlt": "Live music at Iturrieta Sagardotegia",
     "items": {
-      "txotx": {
-        "title": "Barrel-side txotx",
-        "body": "Guided visits to the cellar with controlled pours and timed seatings during cider season."
+      "music": {
+        "title": "Live music at the cider house",
+        "body": "We host live music all year round. The spot changes with the season; the atmosphere doesn't.",
+        "summerLabel": "In summer",
+        "summerBody": "On the terrace, with the Aramaio valley in front of you.",
+        "winterLabel": "In winter",
+        "winterBody": "Indoors, by the fireplace."
       },
-      "evenings": {
-        "title": "Basque evenings",
-        "body": "Occasional trikitixa sets and communal suppers — dates published when seasons are confirmed."
-      },
-      "orchard": {
-        "title": "Orchard walks",
-        "body": "Short guided walks among apple trees before selected Sunday services (weather permitting)."
+      "visits": {
+        "title": "Discover how cider is born",
+        "body": "Guided visit to the farmhouse, apple trees and cider-making process. Perfect for families and groups.",
+        "points": {
+          "farmhouse": "The farmhouse and the Aramaio surroundings",
+          "orchard": "The apple trees and the harvest",
+          "making": "The making of natural cider"
+        }
       }
     }
   },
   "visitSection": {
-    "eyebrow": "Visit",
-    "title": "Find us in the haritz",
-    "description": "Opening hours will follow admin-configured seasons. Times below are placeholders for layout and copy review.",
+    "eyebrow": "Find us",
+    "title": "Among the mountains, 30 minutes from Vitoria.",
+    "description": "The farmhouse, the terrace and the apple trees, deep in the Aramaio valley. We take bookings online, by phone and on WhatsApp.",
     "address": "Address",
     "openMaps": "Open in maps",
     "telephone": "Telephone",
-    "phoneNote": "for same-day changes and walk-in enquiries.",
+    "whatsapp": "WhatsApp",
+    "phoneNote": "Call or message us to confirm your table or ask about groups.",
     "openingTimes": "Opening times",
-    "mapPlaceholder": "Interactive map embed can replace this block once the venue coordinates are confirmed.",
-    "mapAria": "Map placeholder for future embed",
+    "imageAlt": "Iturrieta terrace with snowy mountains in the distance",
+    "imageCaption": "The terrace and the valley — deep in Aramaio.",
     "hours": {
-      "weekend": {
-        "label": "Friday & Saturday",
-        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      "open": {
+        "label": "Thursday – Sunday",
+        "detail": "13:00 – 16:00"
       },
-      "sunday": {
-        "label": "Sunday",
-        "detail": "13:00 – 17:00 (kitchen closes 16:00)"
+      "dinners": {
+        "label": "Dinners",
+        "detail": "By arrangement only"
       },
-      "weekdays": {
-        "label": "Mon – Thu",
-        "detail": "Private events by arrangement"
+      "closed": {
+        "label": "Monday – Wednesday",
+        "detail": "Closed · groups by arrangement"
+      },
+      "holidays": {
+        "label": "Year-end holidays",
+        "detail": "Closed 24 December – 1 January"
       }
     }
   },
   "footer": {
-    "tagline": "Basque cider house · seasonal kitchen · long tables",
+    "tagline": "Natural organic cider from the heart of Aramaio.",
     "contact": "Contact",
     "visit": "Visit",
-    "photoCredit": "Placeholder photography via Unsplash — see"
+    "photoCredit": "Photographs © Iturrieta / Enekografía — see"
   },
-  "bookPage": {
+  "bookFlow": {
     "eyebrow": "Reservations",
-    "title": "Booking opens soon",
-    "body": "The full date, table, and floor-plan flow will arrive in a later phase. This page confirms the book action from the homepage — no availability is shown here yet.",
-    "backHome": "Back to home"
+    "title": "Book a table",
+    "lead": "Online reservations are for Thursday–Sunday lunch (13:00–16:00). Dinners and Monday–Wednesday groups are by arrangement — call the house.",
+    "intro": "Pick a Thursday, Friday, Saturday, or Sunday. We serve one lunch sitting in the 13:00–16:00 window. Closed 24 December–1 January.",
+    "stepsProgress": "Booking steps",
+    "loading": "Loading…",
+    "steps": {
+      "when": "Date & time",
+      "time": "Confirm time",
+      "table": "Table",
+      "details": "Confirm"
+    },
+    "fields": {
+      "date": "Date",
+      "arrivalTime": "Arrival time",
+      "partySize": "Party size",
+      "partyCustom": "Or enter a number (1–10)",
+      "service": "Service",
+      "chooseService": "Choose a service",
+      "time": "Available slots",
+      "specialRequest": "Special requests (optional)",
+      "specialRequestPlaceholder": "Allergies, celebrations, accessibility needs…",
+      "terms": "I accept the house booking terms, including cancellation windows and seating policies."
+    },
+    "hints": {
+      "season": "Lunch only, Thu–Sun 13:00–16:00 (Europe/Madrid). No online dinner slots.",
+      "timeWindow": "Choose when you plan to arrive — we seat one lunch service between 13:00 and 16:00.",
+      "floorPlan": "Tap an available table on the plan. Grey tables are already taken or unsuitable for your party size.",
+      "floorPlanAfterType": "Choose a specific table on the plan. Only your selected table type is shown."
+    },
+    "tierCards": {
+      "lead": "Choose the kind of table you want. We assign the best available table in that category — no floor plan needed.",
+      "photoCredit": "Table photos from Unsplash",
+      "assigned": "{tier} — table {table} held for you",
+      "selected": "Selected",
+      "noneAvailable": "None free for this time",
+      "availableCount": "{count, plural, one {# table free} other {# tables free}}",
+      "standard": {
+        "title": "Standard txotx table",
+        "description": "Classic long-table seating in the main hall — shared cider-house rhythm.",
+        "imageAlt": "Guests at the txotx in the cider house"
+      },
+      "premium": {
+        "title": "Premium table",
+        "description": "A quieter or more spacious spot — ideal for celebrations or larger groups.",
+        "imageAlt": "Farmhouse dining room with warm light"
+      },
+      "group": {
+        "title": "Group / terrace",
+        "description": "Smaller or outdoor-style settings for intimate groups.",
+        "imageAlt": "Terrace seating at the sagardotegia"
+      }
+    },
+    "summary": {
+      "heading": "Your visit",
+      "date": "Date",
+      "party": "Guests",
+      "service": "Service",
+      "time": "Time",
+      "table": "Table"
+    },
+    "gallery": {
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "altCheers": "Friends raising glasses in a toast",
+      "altSteak": "Steak resting after the grill",
+      "altSeasonal": "Seasonal salad on a white plate",
+      "altCoastal": "Table setting in soft coastal light",
+      "altBread": "Rustic bread and accompaniments",
+      "altGrillPlate": "Grilled dish on a white plate",
+      "captions": {
+        "whenCommunal": "Shared tables — the heart of the cider house.",
+        "whenRoom": "Stone, wood, and candlelight before service.",
+        "whenSeason": "The kitchen follows the orchard calendar.",
+        "timeEvening": "Evening service at an unhurried pace.",
+        "timeTxotx": "Midday txotx — cider between courses.",
+        "timeKitchen": "Grill and garden on the same menu.",
+        "tableHall": "Pick your place in the main hall.",
+        "tableLong": "Long tables for families and friends.",
+        "tableReady": "Your setting is prepared for the service.",
+        "detailsDish": "Seasonal plates from the same fire.",
+        "detailsArrival": "We will have your table marked.",
+        "detailsWelcome": "A warm welcome when you walk in.",
+        "doneHeld": "Your reservation is confirmed.",
+        "doneSeeYou": "We look forward to seeing you in Aramaio.",
+        "doneTable": "Cider from the kupela and the grill await."
+      }
+    },
+    "aside": {
+      "when": "Long tables, shared pace — pick a day that suits your group.",
+      "time": "Midday txotx or evening grill — each service has its own seating rhythm.",
+      "table": "Choose where you sit in the hall; the plan reflects live availability.",
+      "details": "Tell us anything we should know before you arrive.",
+      "done": "Your place is held — bring this pass for a smooth welcome.",
+      "whenAlt": "Guests seated at a long dining table",
+      "timeAlt": "Warm dining room with glasses on the table",
+      "tableAlt": "View of the dining room from the booking plan",
+      "detailsAlt": "Seasonal dish on a ceramic plate",
+      "doneAlt": "Guests gathered for a shared meal"
+    },
+    "floor": {
+      "available": "Available",
+      "unavailable": "Unavailable",
+      "selected": "selected",
+      "tierStandard": "Standard",
+      "tierPremium": "Premium",
+      "tierGroup": "Group",
+      "tierLegend": "Table types on the floor plan"
+    },
+    "actions": {
+      "continue": "Continue",
+      "back": "Back",
+      "backToTable": "Back to table",
+      "confirm": "Confirm booking"
+    },
+    "pay": {
+      "eyebrow": "Deposit",
+      "title": "Complete your deposit",
+      "body": "Your table is held while you pay the house deposit. The booking is only confirmed after payment succeeds — returning from a payment page alone does not confirm it.",
+      "amount": "Deposit due: {amount}",
+      "holdDeadline": "Hold expires {time} if payment is not completed.",
+      "payDeposit": "Pay deposit",
+      "processing": "Processing…",
+      "loading": "Preparing secure checkout…",
+      "devNote": "Development mode: payment is simulated on the server after you continue.",
+      "errors": {
+        "generic": "Payment could not be started. Try again.",
+        "auth": "Sign in again to continue payment.",
+        "expired": "The hold expired. Start a new booking.",
+        "provider": "Online payment is not available yet. Contact the house with your reference.",
+        "pending": "Payment is still pending. Refresh or try again in a moment."
+      }
+    },
+    "confirmed": {
+      "eyebrow": "Confirmed",
+      "title": "Your table is reserved",
+      "titlePaid": "Deposit received — you're confirmed",
+      "body": "Your booking is confirmed. Show the QR pass below when you arrive, or open My bookings anytime for the same pass.",
+      "reference": "Reference",
+      "qrHint": "Your check-in pass could not be loaded. Refresh the page or open this booking from My bookings.",
+      "viewBooking": "View booking",
+      "bookMore": "Book more"
+    },
+    "errors": {
+      "generic": "Something went wrong. Try again.",
+      "dateInPast": "Choose today or a future date — past days cannot be booked.",
+      "noAvailability": "No services are available for that date and party size.",
+      "noTables": "No tables are free for that time. Choose another slot.",
+      "conflict": "That table was just taken. Pick another table or time.",
+      "closedWeekday": "We are closed Monday–Wednesday for online booking. Call us for groups or special arrangements.",
+      "noSlotAtTime": "That arrival time is not available. Try 13:00 or another open slot.",
+      "apiUnavailable": "Could not reach the booking server. Start the backend on port 3001 and check your connection.",
+      "signInRequired": "Sign in to confirm your booking."
+    },
+    "auth": {
+      "signInToFinish": "Sign in is required before we can hold a table for you.",
+      "signInLink": "Sign in",
+      "signInToConfirm": "Sign in to confirm booking",
+      "detailsGate": "Create a guest account or sign in to complete this reservation. Your date, time, and table choice will be kept."
+    }
+  },
+  "myBookings": {
+    "title": "My bookings",
+    "eyebrow": "Account",
+    "loading": "Loading your reservations…",
+    "empty": "You have no upcoming or past bookings yet.",
+    "bookNow": "Book a table",
+    "party": "{count, plural, one {# guest} other {# guests}}",
+    "qrAvailable": "Check-in QR available in booking details",
+    "errors": {
+      "load": "Could not load your bookings."
+    }
+  },
+  "bookingTicket": {
+    "venue": "Iturrieta Sagardotegia",
+    "passTitle": "Your booking ticket",
+    "listTitle": "Booking",
+    "checkInPass": "Check-in QR",
+    "when": "Date & time",
+    "service": "Service",
+    "table": "Table",
+    "party": "Party",
+    "guests": "{count, plural, one {# guest} other {# guests}}",
+    "notes": "Notes",
+    "statusConfirmed": "Confirmed",
+    "statusCheckedIn": "Checked in",
+    "statusCancelled": "Cancelled",
+    "statusPending": "Payment pending",
+    "statusOther": "{status}",
+    "viewDetails": "Open full ticket",
+    "qrScanHint": "Scan once per guest ({count, plural, one {# person} other {# people}} in your party). The same code works until everyone has arrived.",
+    "checkInProgress": "{checked} of {total} guests checked in",
+    "qrUnavailable": "QR pass is not available for this booking yet.",
+    "downloadPdf": "Download PDF ticket",
+    "downloadingPdf": "Preparing PDF…",
+    "pdfError": "Could not create the PDF. Try again."
+  },
+  "bookingDetail": {
+    "title": "Booking",
+    "loading": "Loading…",
+    "when": "When",
+    "service": "Service",
+    "table": "Table",
+    "party": "Party size",
+    "notes": "Notes",
+    "reference": "Reference",
+    "qrHint": "Your check-in pass could not be loaded. Refresh the page or try again in a moment.",
+    "backToList": "All bookings",
+    "cancel": "Cancel booking",
+    "cancelling": "Cancelling…",
+    "cancelConfirm": "Cancel this reservation? This cannot be undone.",
+    "cancelDeadline": "Free cancellation until {date}.",
+    "errors": {
+      "load": "Could not load this booking.",
+      "forbidden": "You do not have access to this booking.",
+      "notCancellable": "This booking can no longer be cancelled online.",
+      "generic": "Something went wrong. Try again."
+    }
   },
   "auth": {
     "login": "Sign in",
-    "register": "Create account"
+    "signIn": "Sign in",
+    "register": "Create account",
+    "signOut": "Sign out",
+    "signingIn": "Signing in…",
+    "email": "Email",
+    "password": "Password",
+    "customerArea": "Customer account",
+    "customerHint": "Book and manage your own reservations. Staff and admin tools use separate sign-in pages.",
+    "signedInAs": "Signed in as {name}",
+    "goToBookings": "View my bookings",
+    "continueToApp": "Continue to booking",
+    "oauth": {
+      "divider": "Or continue with",
+      "google": "Continue with Google",
+      "redirecting": "Redirecting…",
+      "errors": {
+        "start": "Could not start sign-in. Check that the provider is enabled in Supabase.",
+        "callback": "Sign-in was cancelled or failed. Try again or use email and password."
+      }
+    },
+    "adminTitle": "Administration",
+    "staffTitle": "Staff",
+    "adminDashboard": "Admin dashboard",
+    "staffDashboard": "Staff dashboard",
+    "loading": "Loading session…",
+    "errors": {
+      "invalidCredentials": "Invalid email or password.",
+      "invalidPortalCredentials": "Invalid user ID or password.",
+      "confirmEmail": "Check your email to confirm your account before signing in.",
+      "wrongArea": "This account cannot access this area. Sign in with your staff or admin portal credentials.",
+      "sessionTimeout": "Checking your session took too long. Is the backend running on port 3001?",
+      "sessionCheckFailed": "Could not verify your session. Try signing in again.",
+      "generic": "Something went wrong. Try again."
+    }
+  },
+  "portalLoginStaff": {
+    "headline": "Tonight’s service, at a glance",
+    "lead": "Check guests in, search the day list, and seat walk-ins without leaving the floor.",
+    "formEyebrow": "Staff access",
+    "formHint": "Use the staff user ID and password issued by the house. This area is not for guest accounts.",
+    "userId": "Staff user ID or email",
+    "footnote": "Credentials are managed by the venue and never shared on the public site.",
+    "customerLink": "Guest booking sign-in",
+    "staffImageAlt": "Txotx at Iturrieta Sagardotegia",
+    "points": {
+      "1": "Day view with live reservation updates",
+      "2": "QR and reference check-in with an audit trail",
+      "3": "Phone and walk-in bookings in a few taps"
+    },
+    "errors": {
+      "notConfigured": "Staff sign-in is not configured on the server yet.",
+      "server": "Could not reach the API or load your profile. Start the backend (port 3001) and run the latest Supabase migration for portal login.",
+      "session": "Signed in on the server but the browser session failed. Check NEXT_PUBLIC_SUPABASE_URL matches your project."
+    }
+  },
+  "portalLoginAdmin": {
+    "headline": "Configure the house with care",
+    "lead": "Manage shifts, floor plans, policies, and staff access from one secure console.",
+    "formEyebrow": "Admin access",
+    "formHint": "Use the admin user ID and password from your deployment secrets. Customer accounts cannot sign in here.",
+    "userId": "Admin user ID or email",
+    "footnote": "Only trusted operators should use this sign-in.",
+    "customerLink": "Guest booking sign-in",
+    "adminImageAlt": "Iturrieta farmhouse in Aramaio",
+    "points": {
+      "1": "Seasons, shifts, and booking rules",
+      "2": "Tables, areas, and floor plan layout",
+      "3": "Staff roles and operational audit logs"
+    },
+    "errors": {
+      "notConfigured": "Admin sign-in is not configured on the server yet.",
+      "server": "Could not reach the API or load your profile. Start the backend (port 3001) and run the latest Supabase migration for portal login.",
+      "session": "Signed in on the server but the browser session failed. Check NEXT_PUBLIC_SUPABASE_URL matches your project."
+    }
   },
   "booking": {
     "title": "Book a table",
@@ -128,10 +586,254 @@
   "staff": {
     "dashboard": "Staff dashboard"
   },
+  "staffDesk": {
+    "eyebrow": "Operations",
+    "title": "Staff desk",
+    "signOut": "Sign out",
+    "navLabel": "Staff sections",
+    "scanAside": "Point the camera at the guest's QR pass. Valid passes check in automatically.",
+    "loading": "Loading…",
+    "tabs": {
+      "scan": "QR check-in",
+      "bookings": "Today's bookings",
+      "history": "My check-ins"
+    },
+    "history": {
+      "title": "Check-ins you completed",
+      "hint": "Successful check-ins recorded under your staff account.",
+      "refresh": "Refresh",
+      "empty": "No check-ins yet. Scan a guest QR to get started.",
+      "methodQr": "QR scan",
+      "methodManual": "Manual"
+    },
+    "dayView": {
+      "title": "Day view",
+      "date": "Date",
+      "search": "Search reference",
+      "searchPlaceholder": "HS-…",
+      "refresh": "Refresh",
+      "empty": "No reservations for this day.",
+      "guests": "guests"
+    },
+    "checkIn": {
+      "title": "Check-in",
+      "hint": "Scan the guest's QR once per person in the party (same code works until everyone is checked in).",
+      "cameraTitle": "Scan QR",
+      "cameraError": "Camera unavailable. Allow camera access or use manual lookup.",
+      "manualTitle": "Manual lookup",
+      "invalid": "Invalid QR — no matching booking.",
+      "notEligible": "{reference}: not valid for check-in ({message}).",
+      "successPartial": "{reference}: guest {guestsCheckedIn} of {partySize} checked in. Scan again for the next guest.",
+      "successComplete": "All {partySize} guests checked in for {reference}.",
+      "placeholder": "Reference or QR token",
+      "lookup": "Look up",
+      "confirm": "Confirm check-in"
+    },
+    "walkIn": {
+      "title": "Phone / walk-in",
+      "hint": "Books the next available table for the selected date (first open slot).",
+      "party": "Party",
+      "source": "Source",
+      "walkIn": "Walk-in",
+      "phone": "Phone",
+      "create": "Create booking",
+      "lastAvailability": "{count} service(s) checked for availability."
+    },
+    "errors": {
+      "loadDay": "Could not load reservations.",
+      "serviceUnavailable": "The booking service is temporarily unavailable. Check that the API is running and database migrations are applied.",
+      "generic": "Something went wrong.",
+      "notFound": "No reservation matches that lookup.",
+      "duplicateCheckIn": "Guest is already checked in.",
+      "noSlot": "No open slots for that date and party size.",
+      "noTable": "No table free for the first slot.",
+      "walkIn": "Could not create the walk-in booking.",
+      "loadHistory": "Could not load your check-in history."
+    }
+  },
   "admin": {
     "dashboard": "Admin dashboard"
   },
+  "adminConsole": {
+    "eyebrow": "Venue configuration",
+    "title": "Admin console",
+    "signOut": "Sign out",
+    "loading": "Loading venue data…",
+    "navLabel": "Admin sections",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "blog": "News & blog",
+      "policy": "Booking policy",
+      "shifts": "Shifts",
+      "seasons": "Seasons & closures",
+      "staff": "Staff access"
+    },
+    "sections": {
+      "overview": "Metrics, Excel reports, and a snapshot of the venue.",
+      "analytics": "Booking trends, busiest dates, and peak arrival times with charts.",
+      "blog": "Write and publish articles for the homepage News section.",
+      "policy": "Adjust notice windows, party size, and turnover buffers.",
+      "shifts": "Enable or disable service shifts for online booking.",
+      "seasons": "Manage seasons and mark closure dates.",
+      "staff": "Assign the staff role to Supabase user accounts."
+    },
+    "blog": {
+      "createTitle": "New article",
+      "editTitle": "Edit article",
+      "hint": "Published posts appear in the News section on the homepage and on their own page.",
+      "fieldTitle": "Title",
+      "fieldSlug": "URL slug",
+      "fieldExcerpt": "Short summary",
+      "fieldBody": "Article text",
+      "imagesTitle": "Photos",
+      "coverUpload": "Upload cover photo",
+      "coverUrlPlaceholder": "Or paste image URL (https://…)",
+      "useUrl": "Use URL",
+      "galleryUpload": "Add gallery photo",
+      "saveDraft": "Save draft",
+      "publish": "Publish",
+      "cancelEdit": "Cancel",
+      "listTitle": "All posts",
+      "loading": "Loading posts…",
+      "empty": "No articles yet.",
+      "statusPublished": "Live",
+      "statusDraft": "Draft",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this article permanently?",
+      "errors": {
+        "load": "Could not load blog posts.",
+        "migration": "Blog database is not set up yet. In Supabase → SQL, run backend/supabase/migrations/20251027170000_blog_posts.sql (or fix DATABASE_URL and run npm run db:apply in backend).",
+        "save": "Could not save the article.",
+        "delete": "Could not delete the article.",
+        "upload": "Image upload failed. Run the blog migration in Supabase if this is a new setup.",
+        "required": "Title and slug are required."
+      }
+    },
+    "analytics": {
+      "from": "From",
+      "to": "To",
+      "refresh": "Refresh charts",
+      "loading": "Loading analytics…",
+      "totalBookings": "Total bookings",
+      "totalHint": "Non-cancelled reservations with service in range · {tz}",
+      "peakDate": "Busiest day",
+      "peakDateValue": "{date} · {count} bookings",
+      "peakDateHint": "Date with the most reservations starting that day.",
+      "peakTime": "Peak arrival hour",
+      "peakTimeValue": "{time} · {count} bookings",
+      "peakTimeHint": "Hour when most tables are scheduled to start · {tz}",
+      "noData": "No bookings in this range",
+      "chartByDate": "Bookings by date",
+      "chartByDateLead": "Daily volume — spot weekends, holidays, and campaign spikes.",
+      "chartByHour": "Bookings by hour",
+      "chartByHourLead": "When guests arrive — use this to staff the floor and kitchen.",
+      "chartByWeekday": "Bookings by weekday",
+      "chartByWeekdayLead": "Which days of the week drive the most demand.",
+      "bookings": "Bookings",
+      "guests": "Guests"
+    },
+    "overview": {
+      "lead": "Changes here flow through the NestJS availability engine — the public book flow reads the same data.",
+      "heroEyebrow": "Operations pulse",
+      "heroTitle": "House at a glance",
+      "heroLead": "Bookings, guest attendance, and QR check-ins for today and your chosen date range.",
+      "todayTitle": "Today",
+      "todayDate": "{date} · {tz}",
+      "todayBookings": "Bookings today",
+      "todayGuests": "Guests expected",
+      "todayCheckedIn": "Checked in",
+      "todayAttendance": "Guests arrived",
+      "checkInTitle": "Check-in progress (selected range)",
+      "checkInHint": "Share of confirmed reservations that have been checked in via QR or staff desk.",
+      "checkedIn": "Checked in",
+      "pendingCheckIn": "Awaiting check-in",
+      "attendanceGuests": "Attendance (guests)",
+      "venueSnapshot": "Venue setup",
+      "areas": "Dining areas",
+      "tables": "Tables",
+      "shifts": "Active shifts",
+      "seasons": "Enabled seasons",
+      "reportTitle": "Period summary",
+      "reportLead": "Counts for reservations whose service starts in the range below.",
+      "from": "From",
+      "to": "To",
+      "runReport": "Refresh report",
+      "downloadExcel": "Download Excel",
+      "exporting": "Preparing file…",
+      "refreshing": "Refreshing…",
+      "loadingMetrics": "Loading metrics…",
+      "noReportYet": "Choose dates and refresh to load metrics.",
+      "bookings": "Total bookings",
+      "active": "Active (non-cancelled)",
+      "cancelled": "Cancellations",
+      "guests": "Guest seats",
+      "webBookings": "Online bookings",
+      "walkInBookings": "Walk-in / phone",
+      "noShows": "No-shows"
+    },
+    "policy": {
+      "title": "Active booking policy",
+      "hint": "Adjust notice windows, party limits, buffers, and deposits. Saves are audited on the server.",
+      "minNotice": "Minimum notice (minutes)",
+      "maxAdvance": "Maximum advance (days)",
+      "maxParty": "Maximum party size",
+      "buffer": "Turnover buffer (minutes)",
+      "depositRequired": "Deposit required for online bookings",
+      "paymentsDisabled": "Online deposits are turned off (no payment gateway). Bookings confirm immediately without a pay step."
+    },
+    "shifts": {
+      "title": "Service shifts",
+      "hint": "Toggle shifts to open or close lunch/dinner services without deleting history.",
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "floor": {
+      "title": "Floor plan layout",
+      "hint": "Select a table to adjust its type, colour on the booking map, and SVG position.",
+      "editing": "Table {label}",
+      "tableType": "Table type",
+      "typeStandard": "Standard",
+      "typePremium": "Premium",
+      "typeGroup": "Group",
+      "unavailable": "Not bookable",
+      "x": "X position",
+      "y": "Y position",
+      "width": "Width",
+      "height": "Height",
+      "save": "Save layout"
+    },
+    "seasons": {
+      "title": "Season rules",
+      "enable": "Enable",
+      "disable": "Disable",
+      "closuresTitle": "Closure dates (next 90 days)",
+      "date": "Date",
+      "reason": "Reason (optional)",
+      "addClosure": "Add closure",
+      "closed": "closed",
+      "remove": "Remove"
+    },
+    "staff": {
+      "title": "Staff profiles",
+      "hint": "Paste a Supabase user ID from a guest account to grant STAFF. Admin roles cannot be assigned here.",
+      "userIdPlaceholder": "User UUID",
+      "grant": "Grant staff role"
+    },
+    "errors": {
+      "load": "Could not load venue configuration.",
+      "save": "Save failed. Check the API and try again.",
+      "report": "Could not load the report.",
+      "analytics": "Could not load booking analytics.",
+      "reportRange": "Choose a valid date range (From must be on or before To).",
+      "export": "Could not download the Excel report.",
+      "exceptions": "Could not load closure dates.",
+      "staff": "Could not load staff list.",
+      "staffAssign": "Could not assign staff role. Ensure the profile exists and is not an admin."
+    }
+  },
   "common": {
-    "siteName": "Haritz Sagardotegia"
+    "siteName": "Iturrieta Sagardotegia"
   }
 }

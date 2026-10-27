@@ -2,19 +2,26 @@
   "meta": {
     "siteDescription": "Sagardoetxe baskoiarrerako erreserbak — denboraldiko sukaldea, txotx eta mahai luzeak.",
     "bookTitle": "Mahaia erreserbatu",
-    "bookDescription": "Haritz Sagardotegiaren erreserba online."
+    "bookDescription": "Iturrieta Sagardotegiaren erreserba online."
   },
   "nav": {
+    "about": "Guri buruz",
     "menu": "Menua",
-    "experiences": "Esperientziak",
-    "visit": "Bisita",
+    "blog": "Albisteak",
+    "experiences": "Bisitak eta ekitaldiak",
+    "visit": "Non gauden",
     "book": "Mahaia erreserbatu",
     "skipToContent": "Edukira joan",
     "openMenu": "Menua ireki",
     "closeMenu": "Menua itxi",
     "primary": "Nagusia",
     "mobile": "Mugikorra",
-    "language": "Hizkuntza"
+    "language": "Hizkuntza",
+    "signIn": "Saioa hasi",
+    "signOut": "Saioa itxi",
+    "accountLoading": "Kontua…",
+    "accountMenu": "Kontuaren menua",
+    "myBookings": "Nire erreserbak"
   },
   "localeNames": {
     "en": "English",
@@ -24,102 +31,431 @@
     "fr": "Français"
   },
   "hero": {
-    "eyebrow": "Gipuzkoa · Sagardotegia",
-    "title": "Sua, sagardoa eta denboraldiko erritmoa",
-    "lead": "Sagardoetxe baskoiarra · denboraldiko sukaldea · mahai luzeak. Erreserbatu zure tokia mahai luzean — txotx zerbitzuak, upeltxotik sagardoa eta egutegia jarraitzen duen sukaldea.",
+    "eyebrow": "Sagardotegia · Aramaio",
+    "title": "Sagondotik",
+    "titleAccent": "txotxera.",
+    "lead": "Natural organic cider made with apples from Aramaio. Come and live the cider house experience, among mountains and great food.",
+    "leadSecondary": "Deitu eta erreserbatu, edo online — ongi etorri bera Arragako caserioan.",
     "book": "Mahaia erreserbatu",
-    "viewMenu": "Menua ikusi"
-  },
-  "menuSection": {
-    "eyebrow": "Menua",
-    "title": "Sagardotegi eta sukaldearekin lotutako sukaldea",
-    "description": "Plater eta prezioak administrazio panelatik kudeatuko dira. Txartel hauek etxe menuaren tonua aurreikusten dute.",
-    "availabilityNote": "Erabilgarritasuna erreserbatzean",
-    "cards": {
+    "viewMenu": "Menua ikusi",
+    "callPhone": "685 72 15 93",
+    "scrollHint": "Scroll",
+    "gallery": {
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}"
+    },
+    "slides": {
+      "orchard": {
+        "alt": "Aramaio apple entering the press — hero scene from Iturrieta"
+      },
+      "caserio": {
+        "alt": "Iturrieta cider house among the Aramaio mountains"
+      },
+      "farmhouse": {
+        "alt": "Iturrieta farmhouse in the Arraga neighbourhood"
+      },
+      "kupelas": {
+        "alt": "Kupelas ready for txotx service"
+      },
       "txotx": {
-        "title": "Gertuko txotxa",
-        "body": "Bakailao tortila, txuleta, gazta eta intxaurrak — sagardoa kupelatik plateren artean.",
-        "alt": "Denboraldiko platera mahai rustiko batean"
+        "alt": "Txotx atmosphere at the grill"
       },
-      "grill": {
-        "title": "Arratsaldeko parrilla",
-        "body": "Su txuleta, baratze piperrak eta aldeko plater partekatuak. Sagardoetxearen erritmo lasaian.",
-        "alt": "Berogailu handiko jangela"
+      "terrace": {
+        "alt": "Terrace with the snowy sierra beyond the valley"
       },
-      "cellar": {
-        "title": "Igande bodegan",
-        "body": "Menu arinagoa gazta lokalarekin, txakoli parekatuak eta harri-labeko opilarekin.",
-        "alt": "Gonbidatuak mahai baten inguruan"
+      "concerts": {
+        "alt": "Live music at the cider house"
       }
     }
   },
+  "aboutSection": {
+    "eyebrow": "Nor gara",
+    "title": "Familia proiektu bat Aramaioko mendietan.",
+    "description": "Iturrieta familia nekazaritza proiektu bat da. 1997an Gasteiztik Aramaioko caserio eder honetara joan ginen eta abereztegiak sagardoetxe bihurtu, 1998ko Santiago egunean ireki genuen. Gaur 1.400 sagarondotz inguru zaintzen ditugu.",
+    "motto": "Sagarretik txotxera — sagondotik txotxera, etxean egindako sagardo ekologiko naturala.",
+    "imageAlt": "Iturrieta caserioa Arraga auzoan, Aramaio",
+    "locationCaption": "Aramaio · Araba",
+    "stats": {
+      "trees": {
+        "label": "Sagarondoak",
+        "value": "1.400"
+      },
+      "cider": {
+        "label": "Sagardoa",
+        "value": "ECO"
+      },
+      "txotx": {
+        "label": "Txotx",
+        "value": "Urt. – Mai."
+      }
+    }
+  },
+  "menuSection": {
+    "eyebrow": "Menua",
+    "title": "Sagardoetxe menua",
+    "description": "Sagardoetxe menua · urte osoan. Denboraldiko menua ere eskaintzen dugu, prezio berean.",
+    "priceLabel": "Sagardoetxe menua",
+    "price": "45€",
+    "priceUnit": "pertsonako",
+    "kidsNote": "Haurrak etoriko dira? Haur menua 16 €.",
+    "hero": {
+      "eyebrow": "Iturrieta",
+      "previous": "Aurreko argazkia",
+      "next": "Hurrengo argazkia",
+      "counter": "{current} / {total}",
+      "slides": {
+        "orchard": {
+          "alt": "Sagardo Aramaion",
+          "caption": "Gure sagarondoen sagar ekologikoak."
+        },
+        "kupelas": {
+          "alt": "Kupelak txotxerako prest",
+          "caption": "Sagardo naturala kupelatik denboraldian."
+        },
+        "txotx": {
+          "alt": "Txotx sagardoetxean",
+          "caption": "Sagardoetxe esperientzia parrillaren ondoan."
+        },
+        "terrace": {
+          "alt": "Terraza Aramaio haranarekin",
+          "caption": "Mendien artean, Gasteiztik ordu erdi."
+        },
+        "apple": {
+          "alt": "Aramaioko sagarra",
+          "caption": "Gure sagarretik, sagardo naturala."
+        },
+        "farmhouse": {
+          "alt": "Iturrietako harrizko caserioa",
+          "caption": "Familia caserioa 1998tik."
+        }
+      }
+    },
+    "dishes": {
+      "chorizo": {
+        "name": "Txorizoa sagardotan",
+        "detail": "Chorizo a la sidra"
+      },
+      "codScramble": {
+        "name": "Bakailao nahaskia",
+        "detail": "Revuelto de bacalao"
+      },
+      "codPeppers": {
+        "name": "Bakailaoa piper erretan eta tipula sagardotan",
+        "detail": "Bacalao con pimientos asados y cebolla a la sidra"
+      },
+      "steak": {
+        "name": "Txuletoia parrillan",
+        "detail": "Chuletón a la parrilla"
+      },
+      "cheese": {
+        "name": "Idiazabal gazta, irasagarra eta intxaurrak",
+        "detail": "Queso Idiazabal, membrillo y nueces"
+      },
+      "cider": {
+        "name": "Sagardo «Iturrieta» ECO",
+        "detail": "Etxeko sagardo ekologiko naturala"
+      }
+    },
+    "cider": {
+      "eyebrow": "Sagardoa",
+      "title": "Gure sagarretik, sagardo naturala.",
+      "body": "Aramaion sagar ekologikoak landatzen ditugu eta sagardo naturala egiten dugu. Txotx denboraldian, urtetik maiatzera, kupelatik zerbitzatzen dugu; urte gainerakoan, botilan.",
+      "shop": "Erosi gure sagardoa eta sagar zuku ekologikoa gure dendan.",
+      "highlights": {
+        "trees": {
+          "label": "Sagarondoak",
+          "value": "1.400"
+        },
+        "eco": {
+          "label": "Ekologikoa",
+          "value": "ECO"
+        },
+        "txotxSeason": {
+          "label": "Txotx",
+          "value": "Urt. – Mai."
+        }
+      }
+    },
+    "foodGallery": {
+      "eyebrow": "Sukaldetik",
+      "title": "Hau da parrillatik ateratzen dena",
+      "lead": "Bakailaoa, olagarroa, txuletoia eta ikatz parrilla — gure sagardoetxe menuko irudi berak.",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "slides": {
+        "bacalao": {
+          "alt": "Cod with peppers and crisp onion",
+          "caption": "Bakailaoa piper eta tipula krispiarekin."
+        },
+        "pulpo": {
+          "alt": "Olagarroa parrillan",
+          "caption": "Pulpo a la brasa."
+        },
+        "chuletonPlated": {
+          "alt": "Chuletón, plated",
+          "caption": "Txuletoia, platerrean."
+        },
+        "chuletonBeforeGrill": {
+          "alt": "Chuletón steaks before the embers",
+          "caption": "Txuletonak suaren aurretik."
+        },
+        "charcoalGrill": {
+          "alt": "The charcoal grill",
+          "caption": "Ikatz parrilla."
+        },
+        "kitchen": {
+          "alt": "The kitchen, mid-service",
+          "caption": "Sukaldea, zerbitzuan."
+        },
+        "diningRoom": {
+          "alt": "The cider house dining room",
+          "caption": "Sagardoetxearen comedorra."
+        },
+        "kupelas": {
+          "alt": "Barrels ready for txotx",
+          "caption": "Kupelak, txotxerako prest."
+        }
+      }
+    },
+    "seasonalMenu": {
+      "title": "Denboraldiko menua · 45 € berdin",
+      "body": "Denboraldiko menua ere eskaintzen dugu — uzta eta parrillaren arabera, errea eta hegaztiak eskuragarri daudenean."
+    },
+    "produce": {
+      "eyebrow": "Ekoizten duguna",
+      "title": "Sagardoa, zukua eta sagarordea",
+      "body": "Gure 1.400 sagarondotako sagar ekologikoak, Iturrieta ECO sagardoa eta etxera eramateko zukua — Sagarretik txotxera."
+    }
+  },
   "season": {
-    "eyebrow": "Denboraldiko nabarmena",
-    "title": "Txotx denboraldia",
-    "body": "Urtarrilatik apirilera, sagardoa upeltxotik zuzenean. Erreserbatu gertuko txotx zerbitzua eta egon parrilla menuarekin.",
-    "cta": "Antolatu zure bisita"
+    "eyebrow": "Txotx",
+    "title": "Txotx!",
+    "body": "Bizi ezazu sagardoetxe esperientzia: sagardoa kupelatik, parrilla eta giro atsegina.",
+    "cta": "Mahaia erreserbatu",
+    "bodySecondary": "Urtetik maiatzera — kupelako sagardoa, parrillako menua eta txotx errituala."
   },
   "experiencesSection": {
-    "eyebrow": "Esperientziak",
-    "title": "Erreserba-tarte bat baino gehiago",
-    "description": "Zerbitzu bereziak denboraldi eta edukierarekin lotuko dira hurrengo faseetan. Ikonoek esperientzia motak markatzen ditete.",
-    "imageAlt": "Mahai luzea oturleekin",
+    "eyebrow": "Bisitak eta ekitaldiak",
+    "title": "Musika eta bisita gidatuak",
+    "description": "Kontzertuak urte osoan eta bisita gidatuak sagardoa nola sortzen den ikusteko.",
+    "imageAlt": "Zuzeneko musika Iturrieta Sagardotegian",
     "items": {
-      "txotx": {
-        "title": "Upel ondoan txotxa",
-        "body": "Bisita gidatuak upeldegian, sagardo denboraldian ordutegi kontrolatuekin."
+      "music": {
+        "title": "Zuzeneko musika sagardoetxean",
+        "body": "Urte osoan musika zuzena antolatzen dugu. Lekua denboraldiarekin aldatzen da; giroa ez.",
+        "summerLabel": "Udan",
+        "summerBody": "Terraza, Aramaio harana aurrean.",
+        "winterLabel": "Neguan",
+        "winterBody": "Barruan, tximiniaren ondoan."
       },
-      "evenings": {
-        "title": "Gau baskoiarrak",
-        "body": "Trikitixa kontzertuak eta afari komunitarioak — datak denboraldiak baieztatzean."
-      },
-      "orchard": {
-        "title": "Sagardotegi ibilaldiak",
-        "body": "Sagarondoen artean ibilaldi laburrak igande zerbitzu batzuetan (eguraldiaren arabera)."
+      "visits": {
+        "title": "Ikusi nola sortzen den sagardoa",
+        "body": "Bisita gidatua caserioa, sagarondoak eta sagardoaren prozesua. Familia eta taldeentzat egokia.",
+        "points": {
+          "farmhouse": "Caserioa eta Aramaio ingurumena",
+          "orchard": "Sagarondoak eta uzta",
+          "making": "Sagardo naturalaren elaborazioa"
+        }
       }
     }
   },
   "visitSection": {
-    "eyebrow": "Bisita",
-    "title": "Haritz auzoan gaude",
-    "description": "Ordutegiak administrazioko denboraldien arabera egongo dira. Beheko orduak orientagarriak dira.",
+    "eyebrow": "Non gauden",
+    "title": "Mendien artean, Gasteizetik 30 minutura.",
+    "description": "Caserioa, terraza eta sagarondoak, Aramaio haranaren barnean. Erreserbak online, telefonoz eta WhatsAppez.",
     "address": "Helbidea",
     "openMaps": "Mapan ireki",
     "telephone": "Telefonoa",
-    "phoneNote": "egun bereko aldaketetarako eta etorri gabe kontsultetarako.",
+    "whatsapp": "WhatsApp",
+    "phoneNote": "Deitu edo idatzi mahaia baieztatzeko edo taldeak kontsultatzeko.",
     "openingTimes": "Ordutegia",
-    "mapPlaceholder": "Mapa interaktiboa txertatu daiteke koordenatuak baieztatzean.",
-    "mapAria": "Mapa leku-marka",
+    "imageAlt": "Iturrietako terraza mendilerro elurtuarekin",
+    "imageCaption": "Terraza eta harana — Aramaio barnean.",
     "hours": {
-      "weekend": {
-        "label": "Ostirala eta larunbata",
-        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      "open": {
+        "label": "Osteguna – igandea",
+        "detail": "13:00 – 16:00"
       },
-      "sunday": {
-        "label": "Igandea",
-        "detail": "13:00 – 17:00 (sukaldea 16:00tan itxi)"
+      "dinners": {
+        "label": "Afariak",
+        "detail": "Hitzarmenez soilik"
       },
-      "weekdays": {
-        "label": "Al. – og.",
-        "detail": "Ekitaldi pribatuak hitzarmenez"
+      "closed": {
+        "label": "Astelehena – asteazkena",
+        "detail": "Itxita · taldeak hitzarmenez"
+      },
+      "holidays": {
+        "label": "Jaialdiak",
+        "detail": "Itxita abenduaren 24tik urtarrilaren 1era"
       }
     }
   },
   "footer": {
-    "tagline": "Sagardoetxe baskoiarra · denboraldiko sukaldea · mahai luzeak",
+    "tagline": "Sagardo ekologiko naturala Aramaio bihotzean.",
     "contact": "Kontaktua",
     "visit": "Bisita",
-    "photoCredit": "Unsplash argazki provisionalak — ikusi"
+    "photoCredit": "Argazkiak © Iturrieta / Enekografía — ikusi"
   },
-  "bookPage": {
+  "bookFlow": {
     "eyebrow": "Erreserbak",
-    "title": "Erreserba online laster",
-    "body": "Data, mahaia eta solairu-planoaren fluxu osoa hurrengo fasean etorriko da. Oraindik ez dago erabilgarritasunik.",
-    "backHome": "Hasierara itzuli"
+    "title": "Mahaia erreserbatu",
+    "lead": "Aukeratu data, zerbitzua eta mahaia mahai luzean — txotxaren erritmo lasaia, telefono ilararik gabe.",
+    "intro": "Hasi eguna aukeratuz. Denboraldiko zerbitzuak eta mahai tamainak etxearen egutegiak markatzen ditu.",
+    "stepsProgress": "Erreserba urratsak",
+    "loading": "Kargatzen…",
+    "steps": {
+      "when": "Data",
+      "time": "Zerbitzua",
+      "table": "Mahaia",
+      "details": "Berretsi"
+    },
+    "fields": {
+      "date": "Data",
+      "partySize": "Pertsona kopurua",
+      "partyCustom": "Edo idatzi zenbakia (1–10)",
+      "service": "Zerbitzua",
+      "chooseService": "Aukeratu zerbitzua",
+      "time": "Ordua",
+      "specialRequest": "Eskaera bereziak (aukerakoa)",
+      "specialRequestPlaceholder": "Alergiak, ospakizunak, irisgarritasuna…",
+      "terms": "Erreserba baldintzak onartzen ditut, bertan behera uzteko epea barne."
+    },
+    "hints": {
+      "season": "Txotx denboraldia: urtarrila–apirila; ostiraletan eta larunbatetan zerbitzua badago.",
+      "floorPlan": "Sakatu planoan libre dagoen mahaia. Griseak okupatuta daude edo taldearentzat egoki ez."
+    },
+    "summary": {
+      "heading": "Zure bisita",
+      "date": "Data",
+      "party": "Gonbidatuak",
+      "service": "Zerbitzua",
+      "time": "Ordua",
+      "table": "Mahaia"
+    },
+    "gallery": {
+      "previous": "Aurreko argazkia",
+      "next": "Hurrengo argazkia",
+      "counter": "{current} / {total}",
+      "altCheers": "Lagunek edatekin brindisa",
+      "altSteak": "Sukaldean egindako txuleta",
+      "altSeasonal": "Denboraldiko salda plater zurian",
+      "altCoastal": "Mahai apaindua argi leunarekin",
+      "altBread": "Ogi rustikoa eta lagungarriak",
+      "altGrillPlate": "Sukaldeko platera plater zurian",
+      "captions": {
+        "whenCommunal": "Mahai partekatuak — sagardoetxearen bihotza.",
+        "whenRoom": "Harria, egurra eta kandelargia zerbitzua baino lehen.",
+        "whenSeason": "Sukaldeak baso-loreen egutegia jarraitzen du.",
+        "timeEvening": "Gau zerbitzua lasai.",
+        "timeTxotx": "Gertuko txotx — sagardoa platen artean.",
+        "timeKitchen": "Sukalde eta baratze menu berean.",
+        "tableHall": "Aukeratu zure tokia areto nagusian.",
+        "tableLong": "Mahai luzeak familia eta lagunentzat.",
+        "tableReady": "Zure mahaia zerbitzurako prest.",
+        "detailsDish": "Denboraldiko platerak su bere tik.",
+        "detailsArrival": "Zure mahaia markatuta izango dugu.",
+        "detailsWelcome": "Ongi etorri beroa sartzean.",
+        "doneHeld": "Zure erreserba berretsita dago.",
+        "doneSeeYou": "Aramaion itxarongo zaitugu.",
+        "doneTable": "Sagardoa, sua eta mahai luzea zain."
+      }
+    },
+    "aside": {
+      "when": "Mahai luzeak, erritmo partekatua — aukeratu taldearentzat egokia den eguna.",
+      "time": "Gertuko txotx edo gauko parrilla — zerbitzu bakoitzak bere erritmoa du.",
+      "table": "Aukeratu aretan non eseri; planoak eskuragarritasuna denbora errealean erakusten du.",
+      "details": "Esan iezaguzu iritsi aurretik jakin behar duguna.",
+      "done": "Zure tokia gorde da — ekarri pase hau ongi etorri azkarra izateko.",
+      "whenAlt": "Gonbidatuak mahai luze batean",
+      "timeAlt": "Berogailu jantegia mahai gainean edatekin",
+      "tableAlt": "Jantegiaren ikuspegia erreserba planotik",
+      "detailsAlt": "Denboraldiko platera zeramikan",
+      "doneAlt": "Gonbidatuak otordu partekatuan"
+    },
+    "floor": {
+      "available": "Libre",
+      "unavailable": "Ez dago libre",
+      "selected": "hautatuta"
+    },
+    "actions": {
+      "continue": "Jarraitu",
+      "back": "Atzera",
+      "confirm": "Erreserba berretsi"
+    },
+    "confirmed": {
+      "eyebrow": "Berretsita",
+      "title": "Mahaia erreserbatuta",
+      "body": "Gorde sarrera-pasea. Nire erreserbak atalean ere ikus dezakezu gailu honetan.",
+      "reference": "Erreferentzia",
+      "qrHint": "Pasea ez dago eskuragarri gailu honetan — erabili erreserba egin zenuen gailua edo jarri harremanetan erreferentziarekin.",
+      "viewBooking": "Erreserba ikusi",
+      "bookMore": "Beste mahaia erreserbatu"
+    },
+    "errors": {
+      "generic": "Arazoren bat gertatu da. Saiatu berriro.",
+      "dateInPast": "Aukeratu gaur edo etorkizuneko data — iraganeko egunak ezin dira erreserbatu.",
+      "noAvailability": "Ez dago zerbitzurik data eta talde horretarako.",
+      "noTables": "Ez dago mahairik libre. Aukeratu beste ordu bat.",
+      "conflict": "Mahaia berriro erreserbatu da. Aukeratu beste mahaia edo ordua."
+    }
+  },
+  "myBookings": {
+    "title": "Nire erreserbak",
+    "eyebrow": "Kontua",
+    "loading": "Erreserbak kargatzen…",
+    "empty": "Oraindik ez duzu erreserbarik.",
+    "bookNow": "Mahaia erreserbatu",
+    "party": "{count, plural, one {# pertsona} other {# pertsona}}",
+    "qrAvailable": "Check-in QR-a erreserbaren xehetasunetan",
+    "errors": {
+      "load": "Ezin izan dira erreserbak kargatu."
+    }
+  },
+  "bookingDetail": {
+    "title": "Erreserba",
+    "loading": "Kargatzen…",
+    "when": "Noiz",
+    "service": "Zerbitzua",
+    "table": "Mahaia",
+    "party": "Pertsona kopurua",
+    "notes": "Oharrak",
+    "reference": "Erreferentzia",
+    "qrHint": "Ireki erreserba erreserba egin zenuen gailuan QR-a ikusteko, edo jarri harremanetan erreferentziarekin.",
+    "backToList": "Erreserba guztiak",
+    "cancel": "Erreserba bertan behera",
+    "cancelling": "Bertan behera…",
+    "cancelConfirm": "Erreserba bertan behera utzi? Ezin da desegin.",
+    "cancelDeadline": "Doako bertan behera {date} arte.",
+    "errors": {
+      "load": "Ezin izan da erreserba kargatu.",
+      "forbidden": "Ez duzu erreserba honetarako sarbiderik.",
+      "notCancellable": "Ezin da gehiago bertan behera utzi online.",
+      "generic": "Arazoren bat gertatu da. Saiatu berriro."
+    }
   },
   "auth": {
     "login": "Saioa hasi",
-    "register": "Kontua sortu"
+    "signIn": "Saioa hasi",
+    "register": "Kontua sortu",
+    "signOut": "Saioa itxi",
+    "signingIn": "Sartzen…",
+    "email": "Posta elektronikoa",
+    "password": "Pasahitza",
+    "customerArea": "Bezero kontua",
+    "customerHint": "Erreserbak kudeatu. Langile eta admin saioa beste orrialdeetan.",
+    "adminTitle": "Administrazioa",
+    "staffTitle": "Langileak",
+    "adminDashboard": "Administrazio panela",
+    "staffDashboard": "Langile panela",
+    "loading": "Saioa kargatzen…",
+    "errors": {
+      "invalidCredentials": "Posta edo pasahitz okerra.",
+      "confirmEmail": "Berretsi zure kontua posta bidez saioa hasi aurretik.",
+      "wrongArea": "Kontu honek ezin du sartu. Erabili zure rolerako orria.",
+      "generic": "Akats bat gertatu da. Saiatu berriro."
+    }
   },
   "booking": {
     "title": "Mahaia erreserbatu",
@@ -128,10 +464,57 @@
   "staff": {
     "dashboard": "Langileen panela"
   },
+  "staffDesk": {
+    "eyebrow": "Eragiketa",
+    "title": "Langile mahai",
+    "signOut": "Saioa itxi",
+    "loading": "Kargatzen…",
+    "dayView": {
+      "title": "Eguneko ikuspegia",
+      "date": "Data",
+      "search": "Erreferentzia bilatu",
+      "searchPlaceholder": "HS-…",
+      "refresh": "Freskatu",
+      "empty": "Ez dago erreserbarik egun honetarako.",
+      "guests": "gonbidatu"
+    },
+    "checkIn": {
+      "title": "Check-in",
+      "hint": "Eskaneatu gonbidatuaren QR-a kamerarekin edo bilatu erreferentziaren arabera behean.",
+      "cameraTitle": "QR eskaneatu",
+      "cameraError": "Kamera ez dago erabilgarri. Baimendu sarbidea edo erabili eskuzko bilaketa.",
+      "manualTitle": "Eskuzko bilaketa",
+      "invalid": "QR baliogabea — ez dago erreserbarik.",
+      "notEligible": "{reference}: ez da check-in egiteko ({message}).",
+      "success": "Check-in ongi {reference} erreserbarako.",
+      "placeholder": "Erreferentzia edo QR tokena",
+      "lookup": "Bilatu",
+      "confirm": "Berretsi check-in"
+    },
+    "walkIn": {
+      "title": "Telefonoa / erreserbarik gabe",
+      "hint": "Hautatutako datarako hurrengo mahia erreserbatzen du (lehen tarte librea).",
+      "party": "Gonbidatuak",
+      "source": "Iturria",
+      "walkIn": "Erreserbarik gabe",
+      "phone": "Telefonoa",
+      "create": "Erreserba sortu",
+      "lastAvailability": "{count} zerbitzu egiaztatu dira eskuragarritasunerako."
+    },
+    "errors": {
+      "loadDay": "Ezin izan dira erreserbak kargatu.",
+      "generic": "Zerbait gaizki joan da.",
+      "notFound": "Ez dago erreserbarik bilaketarekin bat datorrenik.",
+      "duplicateCheckIn": "Gonbidatua dagoeneko check-in eginda dago.",
+      "noSlot": "Ez dago tarte librerik data eta gonbidatu kopuru horretarako.",
+      "noTable": "Ez dago mahirik libre lehen tartean.",
+      "walkIn": "Ezin izan da erreserbarik gabe sortu."
+    }
+  },
   "admin": {
     "dashboard": "Administrazio panela"
   },
   "common": {
-    "siteName": "Haritz Sagardotegia"
+    "siteName": "Iturrieta Sagardotegia"
   }
 }

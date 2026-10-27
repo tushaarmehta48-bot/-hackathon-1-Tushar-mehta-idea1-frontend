@@ -1,20 +1,27 @@
 {
   "meta": {
-    "siteDescription": "Reserves a sagardotegi basc — cuina de temporada, txotx i taules llargues.",
+    "siteDescription": "Iturrieta Sagardotegia — organic cider from Aramaio, cider house menu, txotx, and table reservations.",
     "bookTitle": "Reservar taula",
-    "bookDescription": "Reserva en línia a Haritz Sagardotegia."
+    "bookDescription": "Online booking for Iturrieta Sagardotegia."
   },
   "nav": {
+    "about": "Sobre nosaltres",
     "menu": "Carta",
-    "experiences": "Experiències",
-    "visit": "Visita",
+    "blog": "Notícies",
+    "experiences": "Visites i esdeveniments",
+    "visit": "On som",
     "book": "Reservar taula",
     "skipToContent": "Saltar al contingut",
     "openMenu": "Obrir menú",
     "closeMenu": "Tancar menú",
     "primary": "Principal",
     "mobile": "Mòbil",
-    "language": "Idioma"
+    "language": "Idioma",
+    "signIn": "Iniciar sessió",
+    "signOut": "Tancar sessió",
+    "accountLoading": "Compte…",
+    "accountMenu": "Menú del compte",
+    "myBookings": "Les meves reserves"
   },
   "localeNames": {
     "en": "English",
@@ -24,102 +31,409 @@
     "fr": "Français"
   },
   "hero": {
-    "eyebrow": "Gipuzkoa · Sagardotegia",
-    "title": "Foc, sidra i el ritme de la temporada",
-    "lead": "Sagardotegi basc · cuina de temporada · taules llargues. Reserveu el vostre lloc a la taula comuna: serveis de txotx, sidra del barril i cuina que segueix el calendari.",
-    "book": "Reservar taula",
-    "viewMenu": "Veure la carta"
-  },
-  "menuSection": {
-    "eyebrow": "Carta",
-    "title": "Cuina lligada al hort i a la graella",
-    "description": "Els plats i preus finals es gestionaran des del panell d'administració. Aquestes targetes prefiguren el to de la carta de la casa.",
-    "availabilityNote": "Disponibilitat en reservar",
-    "cards": {
+    "eyebrow": "Sagardotegia · Aramaio",
+    "title": "From apple tree to",
+    "titleAccent": "txotx.",
+    "lead": "Natural organic cider made with apples from Aramaio. Come and live the cider house experience, among mountains and great food.",
+    "leadSecondary": "Call and book, or reserve online — same warm welcome at the Arraga farmhouse.",
+    "book": "Book a table",
+    "viewMenu": "See the menu",
+    "callPhone": "685 72 15 93",
+    "scrollHint": "Scroll",
+    "gallery": {
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}"
+    },
+    "slides": {
+      "orchard": {
+        "alt": "Aramaio apple entering the press — hero scene from Iturrieta"
+      },
+      "caserio": {
+        "alt": "Iturrieta cider house among the Aramaio mountains"
+      },
+      "farmhouse": {
+        "alt": "Iturrieta farmhouse in the Arraga neighbourhood"
+      },
+      "kupelas": {
+        "alt": "Kupelas ready for txotx service"
+      },
       "txotx": {
-        "title": "Txotx de migdia",
-        "body": "Truita de bacallà, txuleta, formatge i nous — sidra servida des de la kupela entre plats.",
-        "alt": "Plat de temporada en taula rústica"
+        "alt": "Txotx atmosphere at the grill"
       },
-      "grill": {
-        "title": "Graella vespertina",
-        "body": "Txuleta a la llenya, pebrot de l'hort i guarnicions compartides. Servei al ritme del sagardotegi.",
-        "alt": "Menjador càlid amb taules parades"
+      "terrace": {
+        "alt": "Terrace with the snowy sierra beyond the valley"
       },
-      "cellar": {
-        "title": "Diumenge a la celler",
-        "body": "Carta més lleugera amb formatge local, maridatges de txakoli i pastissos del mateix forn de pedra.",
-        "alt": "Comensals al voltant d'una taula"
+      "concerts": {
+        "alt": "Live music at the cider house"
       }
     }
   },
+  "menuSection": {
+    "eyebrow": "The menu",
+    "title": "Cider house menu",
+    "description": "Cider house menu · all year. We also serve a seasonal menu at the same price.",
+    "priceLabel": "Cider house menu",
+    "price": "45€",
+    "priceUnit": "per person",
+    "kidsNote": "Coming with kids? Children's menu €16.",
+    "hero": {
+      "eyebrow": "Iturrieta",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "slides": {
+        "orchard": {
+          "alt": "Apple orchard in Aramaio",
+          "caption": "Organic apples from our own trees."
+        },
+        "kupelas": {
+          "alt": "Cider barrels ready for txotx",
+          "caption": "Natural cider straight from the kupela in season."
+        },
+        "txotx": {
+          "alt": "Txotx at the cider house",
+          "caption": "Live the cider house experience at the grill."
+        },
+        "terrace": {
+          "alt": "Terrace with the Aramaio valley",
+          "caption": "Among the mountains, half an hour from Vitoria."
+        },
+        "apple": {
+          "alt": "Aramaio apple",
+          "caption": "From our apple, natural cider."
+        },
+        "farmhouse": {
+          "alt": "Stone farmhouse at Iturrieta",
+          "caption": "A family caserío since 1998."
+        }
+      }
+    },
+    "dishes": {
+      "chorizo": {
+        "name": "Chorizo in cider",
+        "detail": "Txorizoa sagardotan"
+      },
+      "codScramble": {
+        "name": "Cod scramble",
+        "detail": "Bakailao nahaskia"
+      },
+      "codPeppers": {
+        "name": "Cod with roasted peppers and cider onion",
+        "detail": "Bakailaoa piper erretan eta tipula sagardotan"
+      },
+      "steak": {
+        "name": "Grilled chuletón",
+        "detail": "Txuletoia parrillan"
+      },
+      "cheese": {
+        "name": "Idiazabal cheese, quince and walnuts",
+        "detail": "Idiazabal gazta, irasagarra eta intxaurrak"
+      },
+      "cider": {
+        "name": "Iturrieta ECO natural cider",
+        "detail": "Sagardo «Iturrieta» ECO — house organic cider"
+      }
+    },
+    "cider": {
+      "eyebrow": "The cider",
+      "title": "From our apple, natural cider.",
+      "body": "We grow organic apples in Aramaio and make our natural cider with them. During txotx season, January to May, we serve it straight from the kupela; the rest of the year, bottled.",
+      "shop": "Take home our cider and organic apple juice from our shop.",
+      "highlights": {
+        "trees": {
+          "label": "Apple trees",
+          "value": "1,400"
+        },
+        "eco": {
+          "label": "Organic",
+          "value": "ECO"
+        },
+        "txotxSeason": {
+          "label": "Txotx",
+          "value": "Jan – May"
+        }
+      }
+    },
+    "foodGallery": {
+      "eyebrow": "From the kitchen",
+      "title": "This is what comes off the grill",
+      "lead": "Cod, octopus, chuletón and the charcoal grill — the same scenes as our cider house menu in Aramaio.",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "slides": {
+        "bacalao": {
+          "alt": "Cod with peppers and crisp onion",
+          "caption": "Bacalao con pimientos y cebolla crujiente."
+        },
+        "pulpo": {
+          "alt": "Grilled octopus",
+          "caption": "Pulpo a la brasa."
+        },
+        "chuletonPlated": {
+          "alt": "Chuletón, plated",
+          "caption": "Chuletón, ya en el plato."
+        },
+        "chuletonBeforeGrill": {
+          "alt": "Chuletón steaks before the embers",
+          "caption": "Chuletones antes de la brasa."
+        },
+        "charcoalGrill": {
+          "alt": "The charcoal grill",
+          "caption": "La parrilla de carbón."
+        },
+        "kitchen": {
+          "alt": "The kitchen, mid-service",
+          "caption": "La cocina, en pleno servicio."
+        },
+        "diningRoom": {
+          "alt": "The cider house dining room",
+          "caption": "El comedor de la sidrería."
+        },
+        "kupelas": {
+          "alt": "Barrels ready for txotx",
+          "caption": "Las kupelas, listas para el txotx."
+        }
+      }
+    },
+    "seasonalMenu": {
+      "title": "Denboraldiko menua · 45 € berdin",
+      "body": "Denboraldiko menua ere eskaintzen dugu — uzta eta parrillaren arabera, errea eta hegaztiak eskuragarri daudenean."
+    },
+    "produce": {
+      "eyebrow": "Ekoizten duguna",
+      "title": "Sagardoa, zukua eta sagarordea",
+      "body": "Gure 1.400 sagarondotako sagar ekologikoak, Iturrieta ECO sagardoa eta etxera eramateko zukua — Sagarretik txotxera."
+    }
+  },
   "season": {
-    "eyebrow": "Destacat de temporada",
-    "title": "Temporada de txotx",
-    "body": "De gener a abril, la sidra surt directament del barril. Reserveu un txotx de migdia i quedeu-vos amb el menú a la graella.",
-    "cta": "Planifiqueu la visita"
+    "eyebrow": "Txotx",
+    "title": "Txotx!",
+    "body": "Live the cider house experience: cider straight from the kupela, the grill and the friendly atmosphere.",
+    "cta": "Reservar taula",
+    "bodySecondary": "January to May — barrel cider, fire-grilled menu, and the txotx ritual in the kupela room."
   },
   "experiencesSection": {
-    "eyebrow": "Experiències",
-    "title": "Més que una franja de reserva",
-    "description": "Els serveis especials s'enllaçaran amb temporades i aforament en fases posteriors. Les icones marquen tipus d'experiència per filtrar en reservar.",
-    "imageAlt": "Taula llarga amb comensals compartint",
+    "eyebrow": "Visits & events",
+    "title": "Music and guided visits",
+    "description": "Concerts at the cider house all year, and guided visits to see how cider is born.",
+    "imageAlt": "Live music at Iturrieta Sagardotegia",
     "items": {
-      "txotx": {
-        "title": "Txotx al costat del barril",
-        "body": "Visites guiades a la celler amb serveis controlats durant la temporada de sidra."
+      "music": {
+        "title": "Live music at the cider house",
+        "body": "We host live music all year round. The spot changes with the season; the atmosphere doesn't.",
+        "summerLabel": "In summer",
+        "summerBody": "On the terrace, with the Aramaio valley in front of you.",
+        "winterLabel": "In winter",
+        "winterBody": "Indoors, by the fireplace."
       },
-      "evenings": {
-        "title": "Nits basques",
-        "body": "Actuacions ocasionals de trikitixa i sopars comunitaris — dates en confirmar temporades."
-      },
-      "orchard": {
-        "title": "Passejades pel pomar",
-        "body": "Curtes rutes guiades entre pomeres abans d'alguns serveis dominicals (segons el temps)."
+      "visits": {
+        "title": "Discover how cider is born",
+        "body": "Guided visit to the farmhouse, apple trees and cider-making process. Perfect for families and groups.",
+        "points": {
+          "farmhouse": "The farmhouse and the Aramaio surroundings",
+          "orchard": "The apple trees and the harvest",
+          "making": "The making of natural cider"
+        }
       }
     }
   },
   "visitSection": {
-    "eyebrow": "Visita",
-    "title": "Som al barri Haritz",
-    "description": "L'horari seguirà les temporades configurades a administració. Els horaris següents són orientatius.",
-    "address": "Adreça",
-    "openMaps": "Obrir al mapa",
-    "telephone": "Telèfon",
-    "phoneNote": "per a canvis el mateix dia i consultes sense reserva.",
-    "openingTimes": "Horari",
-    "mapPlaceholder": "Aquí s'hi pot integrar un mapa interactiu quan es confirmi la ubicació.",
-    "mapAria": "Marcador de posició del mapa",
+    "eyebrow": "Find us",
+    "title": "Among the mountains, 30 minutes from Vitoria.",
+    "description": "The farmhouse, the terrace and the apple trees, deep in the Aramaio valley. We take bookings online, by phone and on WhatsApp.",
+    "address": "Address",
+    "openMaps": "Open in maps",
+    "telephone": "Telephone",
+    "whatsapp": "WhatsApp",
+    "phoneNote": "Call or message us to confirm your table or ask about groups.",
+    "openingTimes": "Opening times",
+    "imageAlt": "Iturrieta terrace with snowy mountains in the distance",
+    "imageCaption": "The terrace and the valley — deep in Aramaio.",
     "hours": {
-      "weekend": {
-        "label": "Divendres i dissabte",
-        "detail": "13:00 – 16:00 · 20:00 – 23:30"
+      "open": {
+        "label": "Thursday – Sunday",
+        "detail": "13:00 – 16:00"
       },
-      "sunday": {
-        "label": "Diumenge",
-        "detail": "13:00 – 17:00 (cuina tanca 16:00)"
+      "dinners": {
+        "label": "Dinners",
+        "detail": "By arrangement only"
       },
-      "weekdays": {
-        "label": "Dl. – dj.",
-        "detail": "Esdeveniments privats sota consulta"
+      "closed": {
+        "label": "Monday – Wednesday",
+        "detail": "Closed · groups by arrangement"
+      },
+      "holidays": {
+        "label": "Year-end holidays",
+        "detail": "Closed 24 December – 1 January"
       }
     }
   },
   "footer": {
-    "tagline": "Sagardotegi basc · cuina de temporada · taules llargues",
-    "contact": "Contacte",
-    "visit": "Visita",
-    "photoCredit": "Fotografia provisional d'Unsplash — vegeu"
+    "tagline": "Natural organic cider from the heart of Aramaio.",
+    "contact": "Contact",
+    "visit": "Visit",
+    "photoCredit": "Photographs © Iturrieta / Enekografía — see"
   },
-  "bookPage": {
+  "bookFlow": {
     "eyebrow": "Reserves",
-    "title": "La reserva en línia aviat",
-    "body": "El flux complet de data, taula i plànol arribarà en una fase posterior. Encara no hi ha disponibilitat.",
-    "backHome": "Tornar a l'inici"
+    "title": "Reservar taula",
+    "lead": "Trieu data, servei i taula a la taula llarga — el mateix ritme tranquil del txotx, sense cues telefòniques.",
+    "intro": "Comenceu pel dia. Els serveis de temporada i les mides de taula segueixen el calendari de la casa.",
+    "stepsProgress": "Passos de la reserva",
+    "loading": "Carregant…",
+    "steps": {
+      "when": "Data",
+      "time": "Servei",
+      "table": "Taula",
+      "details": "Confirmar"
+    },
+    "fields": {
+      "date": "Data",
+      "partySize": "Comensals",
+      "partyCustom": "O indiqueu un nombre (1–10)",
+      "service": "Servei",
+      "chooseService": "Trieu un servei",
+      "time": "Hora",
+      "specialRequest": "Peticions (opcional)",
+      "specialRequestPlaceholder": "Al·lèrgies, celebracions, accessibilitat…",
+      "terms": "Accepto les condicions de reserva, inclosa la cancel·lació."
+    },
+    "hints": {
+      "season": "Temporada txotx: gener–abril; divendres i dissabte quan hi hagi servei.",
+      "floorPlan": "Toqueu una taula disponible al plànol. Les grises estan ocupades o no admeten el vostre grup."
+    },
+    "summary": {
+      "heading": "La vostra visita",
+      "date": "Data",
+      "party": "Comensals",
+      "service": "Servei",
+      "time": "Hora",
+      "table": "Taula"
+    },
+    "gallery": {
+      "previous": "Foto anterior",
+      "next": "Foto següent",
+      "counter": "{current} / {total}",
+      "altCheers": "Amics brindant amb copes",
+      "altSteak": "Txuleta acabada de sortir de la graella",
+      "altSeasonal": "Amanida de temporada en plat blanc",
+      "altCoastal": "Taula parada amb llum suau",
+      "altBread": "Pa rustici i acompanyaments",
+      "altGrillPlate": "Plat a la graella en plat blanc",
+      "captions": {
+        "whenCommunal": "Taules compartides — l’ànima del sagardotegi.",
+        "whenRoom": "Pedra, fusta i llum de espelmes abans del servei.",
+        "whenSeason": "La cuina segueix el calendari del hort.",
+        "timeEvening": "Servei vespertí sense presses.",
+        "timeTxotx": "Txotx de migdia — sidra entre plats.",
+        "timeKitchen": "Graella i hort al mateix menú.",
+        "tableHall": "Trieu el lloc a la sala principal.",
+        "tableLong": "Taules llargues per a família i amics.",
+        "tableReady": "La vostra taula preparada per al servei.",
+        "detailsDish": "Plats de temporada del mateix foc.",
+        "detailsArrival": "Tindrem la vostra taula senyalada.",
+        "detailsWelcome": "Benvinguda càlida en arribar.",
+        "doneHeld": "La reserva està confirmada.",
+        "doneSeeYou": "Us esperem a Aramaio.",
+        "doneTable": "Sidra, foc i taula llarga us esperen."
+      }
+    },
+    "aside": {
+      "when": "Taules llargues, ritme compartit — trieu el dia per al vostre grup.",
+      "time": "Txotx de migdia o graella vespertina — cada servei té el seu ritme.",
+      "table": "Trieu on seieu a la sala; el plànol reflecteix la disponibilitat en directe.",
+      "details": "Expliqueu-nos el que hauríem de saber abans d'arribar.",
+      "done": "El vostre lloc està reservat — porteu aquest passi per a una rebuda àgil.",
+      "whenAlt": "Comensals en una taula llarga",
+      "timeAlt": "Menjador càlid amb copes a la taula",
+      "tableAlt": "Vista del menjador des del plànol de reserva",
+      "detailsAlt": "Plat de temporada en ceràmica",
+      "doneAlt": "Comensals reunits per a un àpat compartit"
+    },
+    "floor": {
+      "available": "Disponible",
+      "unavailable": "No disponible",
+      "selected": "seleccionada"
+    },
+    "actions": {
+      "continue": "Continuar",
+      "back": "Enrere",
+      "confirm": "Confirmar reserva"
+    },
+    "confirmed": {
+      "eyebrow": "Confirmada",
+      "title": "Taula reservada",
+      "body": "Deseu el passi d'entrada. També el trobareu a Les meves reserves en aquest dispositiu.",
+      "reference": "Referència",
+      "qrHint": "Passi no disponible en aquest dispositiu — useu el mateix dispositiu de la reserva o contacteu amb la referència.",
+      "viewBooking": "Veure reserva",
+      "bookMore": "Reservar una altra taula"
+    },
+    "errors": {
+      "generic": "Alguna cosa ha fallat. Torneu-ho a provar.",
+      "dateInPast": "Trieu avui o una data futura — no es poden reservar dies passats.",
+      "noAvailability": "No hi ha serveis per a aquesta data i nombre de comensals.",
+      "noTables": "No hi ha taules lliures. Trieu una altra hora.",
+      "conflict": "Aquesta taula s'ha reservat ara. Trieu una altra taula o hora."
+    }
+  },
+  "myBookings": {
+    "title": "Les meves reserves",
+    "eyebrow": "Compte",
+    "loading": "Carregant reserves…",
+    "empty": "Encara no teniu reserves.",
+    "bookNow": "Reservar taula",
+    "party": "{count, plural, one {# comensal} other {# comensals}}",
+    "qrAvailable": "QR de check-in al detall de la reserva",
+    "errors": {
+      "load": "No s'han pogut carregar les reserves."
+    }
+  },
+  "bookingDetail": {
+    "title": "Reserva",
+    "loading": "Carregant…",
+    "when": "Quan",
+    "service": "Servei",
+    "table": "Taula",
+    "party": "Comensals",
+    "notes": "Notes",
+    "reference": "Referència",
+    "qrHint": "Obriu la reserva al dispositiu on la vau fer per veure el QR, o contacteu amb la referència.",
+    "backToList": "Totes les reserves",
+    "cancel": "Cancel·lar reserva",
+    "cancelling": "Cancel·lant…",
+    "cancelConfirm": "Cancel·lar aquesta reserva? No es pot desfer.",
+    "cancelDeadline": "Cancel·lació gratuïta fins {date}.",
+    "errors": {
+      "load": "No s'ha pogut carregar la reserva.",
+      "forbidden": "No teniu accés a aquesta reserva.",
+      "notCancellable": "Ja no es pot cancel·lar en línia.",
+      "generic": "Alguna cosa ha fallat. Torneu-ho a provar."
+    }
   },
   "auth": {
     "login": "Iniciar sessió",
-    "register": "Crear compte"
+    "signIn": "Iniciar sessió",
+    "register": "Crear compte",
+    "signOut": "Tancar sessió",
+    "signingIn": "Entrant…",
+    "email": "Correu electrònic",
+    "password": "Contrasenya",
+    "customerArea": "Compte de client",
+    "customerHint": "Reserveu i gestioneu les vostres reserves. Personal i administració tenen accessos separats.",
+    "adminTitle": "Administració",
+    "staffTitle": "Personal",
+    "adminDashboard": "Panell d'administració",
+    "staffDashboard": "Panell de personal",
+    "loading": "Carregant sessió…",
+    "errors": {
+      "invalidCredentials": "Correu o contrasenya incorrectes.",
+      "confirmEmail": "Confirmeu el compte per correu abans d'entrar.",
+      "wrongArea": "Aquest compte no pot accedir aquí.",
+      "generic": "Alguna cosa ha fallat. Torneu-ho a provar."
+    }
   },
   "booking": {
     "title": "Reservar taula",
@@ -128,10 +442,79 @@
   "staff": {
     "dashboard": "Panell de personal"
   },
+  "staffDesk": {
+    "eyebrow": "Operacions",
+    "title": "Taulell de personal",
+    "signOut": "Tancar sessió",
+    "loading": "Carregant…",
+    "dayView": {
+      "title": "Vista del dia",
+      "date": "Data",
+      "search": "Cercar referència",
+      "searchPlaceholder": "HS-…",
+      "refresh": "Actualitzar",
+      "empty": "No hi ha reserves per a aquest dia.",
+      "guests": "comensals"
+    },
+    "checkIn": {
+      "title": "Check-in",
+      "hint": "Escanegeu el QR del client amb la càmera o cerqueu per referència a sota.",
+      "cameraTitle": "Escanejar QR",
+      "cameraError": "Càmera no disponible. Permeteu l'accés o useu cerca manual.",
+      "manualTitle": "Cerca manual",
+      "invalid": "QR no vàlid — cap reserva coincident.",
+      "notEligible": "{reference}: no vàlid per a check-in ({message}).",
+      "success": "Check-in correcte per a {reference}.",
+      "placeholder": "Referència o token QR",
+      "lookup": "Cercar",
+      "confirm": "Confirmar check-in"
+    },
+    "walkIn": {
+      "title": "Telèfon / sense reserva",
+      "hint": "Reserva la següent taula disponible per a la data seleccionada (primer forat lliure).",
+      "party": "Comensals",
+      "source": "Origen",
+      "walkIn": "Sense reserva",
+      "phone": "Telèfon",
+      "create": "Crear reserva",
+      "lastAvailability": "{count} servei(s) comprovats per a la disponibilitat."
+    },
+    "errors": {
+      "loadDay": "No s'han pogut carregar les reserves.",
+      "generic": "Alguna cosa ha anat malament.",
+      "notFound": "Cap reserva coincideix amb aquesta cerca.",
+      "duplicateCheckIn": "El client ja ha fet check-in.",
+      "noSlot": "No hi ha forats lliures per a aquesta data i nombre de comensals.",
+      "noTable": "No hi ha taula lliure al primer forat.",
+      "walkIn": "No s'ha pogut crear la reserva sense cita."
+    }
+  },
   "admin": {
     "dashboard": "Panell d'administració"
   },
   "common": {
-    "siteName": "Haritz Sagardotegia"
+    "siteName": "Iturrieta Sagardotegia"
+  },
+  "aboutSection": {
+    "eyebrow": "About us",
+    "title": "A family project in the mountains of Aramaio.",
+    "description": "Iturrieta is a family farming project. In 1997 we moved from Vitoria to this beautiful farmhouse in Aramaio and turned the stables into a cider house, opening on St. James's Day 1998. Today we tend around 1,400 apple trees.",
+    "motto": "Sagarretik txotxera — from apple to txotx, natural organic cider made at home.",
+    "imageAlt": "Iturrieta farmhouse in the Arraga neighbourhood, Aramaio",
+    "locationCaption": "Aramaio · Álava",
+    "stats": {
+      "trees": {
+        "label": "Apple trees",
+        "value": "1,400"
+      },
+      "cider": {
+        "label": "Cider",
+        "value": "ECO"
+      },
+      "txotx": {
+        "label": "Txotx",
+        "value": "Jan – May"
+      }
+    }
   }
 }

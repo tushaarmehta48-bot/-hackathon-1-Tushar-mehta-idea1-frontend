@@ -4,15 +4,20 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import { useId, useState } from "react";
-import { navAnchors, site } from "@/content/site";
+import { SiteBrand } from "@/components/brand/site-brand";
+import { navAnchors } from "@/content/site";
 import { Link } from "@/i18n/navigation";
 import { ButtonLink } from "@/components/ui/button";
+import { CustomerAccountNav } from "@/components/layout/customer-account-nav";
 import { LocaleSwitcher } from "@/components/layout/locale-switcher";
+import { useCustomerAuth } from "@/lib/use-customer-auth";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const menuId = useId();
   const t = useTranslations("nav");
+  const auth = useCustomerAuth();
+  const showMyBookingsLink = auth.status !== "signedIn";
 
   return (
     <header className="sticky top-0 z-50 border-b border-line/80 bg-cream/95 backdrop-blur-sm">
@@ -22,34 +27,38 @@ export function SiteHeader() {
       >
         {t("skipToContent")}
       </a>
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
-        <Link
-          href="/"
-          className="font-heading text-xl tracking-tight text-forest transition-colors hover:text-forest-light"
-        >
-          {site.name}
-        </Link>
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-4 py-3 sm:gap-3 sm:px-6 sm:py-3.5">
+        <SiteBrand className="min-w-0 shrink sm:max-w-none" />
 
         <nav
-          className="hidden items-center gap-6 md:flex"
+          className="hidden min-w-0 flex-1 items-center justify-end gap-2 md:flex lg:gap-4"
           aria-label={t("primary")}
         >
           {navAnchors.map((link) => (
             <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm text-muted transition-colors hover:text-forest"
+              key={link.sectionId}
+              href={{ pathname: "/", hash: link.sectionId }}
+              className="shrink-0 whitespace-nowrap text-sm text-muted transition-colors hover:text-forest"
             >
               {t(link.key)}
             </Link>
           ))}
           <LocaleSwitcher />
-          <ButtonLink href="/book" variant="primary" className="px-4 py-2">
+          {showMyBookingsLink ? (
+            <Link
+              href="/bookings"
+              className="shrink-0 whitespace-nowrap text-sm text-muted transition-colors hover:text-forest"
+            >
+              {t("myBookings")}
+            </Link>
+          ) : null}
+          <CustomerAccountNav auth={auth} />
+          <ButtonLink href="/book" variant="primary" className="shrink-0 px-3 py-2 text-sm lg:px-4">
             {t("book")}
           </ButtonLink>
         </nav>
 
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex shrink-0 items-center gap-2 md:hidden">
           <LocaleSwitcher />
           <button
             type="button"
@@ -72,9 +81,9 @@ export function SiteHeader() {
         >
           <ul className="flex flex-col gap-1 pt-2">
             {navAnchors.map((link) => (
-              <li key={link.href}>
+              <li key={link.sectionId}>
                 <Link
-                  href={link.href}
+                  href={{ pathname: "/", hash: link.sectionId }}
                   className="block rounded-sm px-2 py-3 text-forest"
                   onClick={() => setOpen(false)}
                 >
@@ -82,6 +91,18 @@ export function SiteHeader() {
                 </Link>
               </li>
             ))}
+            <CustomerAccountNav variant="stacked" auth={auth} onNavigate={() => setOpen(false)} />
+            {showMyBookingsLink ? (
+              <li>
+                <Link
+                  href="/bookings"
+                  className="block rounded-sm px-2 py-3 text-forest"
+                  onClick={() => setOpen(false)}
+                >
+                  {t("myBookings")}
+                </Link>
+              </li>
+            ) : null}
             <li className="pt-2">
               <ButtonLink
                 href="/book"
